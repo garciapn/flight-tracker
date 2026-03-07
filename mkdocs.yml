@@ -1,0 +1,72 @@
+site_name: Flight Tracker Documentation
+site_description: Real-time flight price tracking for SAN↔ATH
+site_author: Paolo Garcia
+site_url: https://garciapn.github.io/flight-tracker
+
+repo_url: https://github.com/garciapn/flight-tracker
+repo_name: garciapn/flight-tracker
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  logo: https://cdn-icons-png.flaticon.com/512/3050/3050159.png
+  favicon: https://cdn-icons-png.flaticon.com/512/3050/3050159.png
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      use_pygments: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - social
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Installation: INSTALLATION.md
+    - Usage: USAGE.md
+    - API Reference: API.md
+  - Deployment:
+    - Deployment Guide: DEPLOYMENT.md
+  - Contributing:
+    - Development: DEVELOPMENT.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/garciapn/flight-tracker
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com
+    - icon: fontawesome/solid/envelope
+      link: mailto:paolo@example.com
+
+copyright: Copyright &copy; 2026 Paolo Garcia | Flight Tracker
