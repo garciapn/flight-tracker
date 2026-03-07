@@ -4,8 +4,19 @@ requests==2.31.0
 python-dotenv==1.0.0
 gunicorn==20.1.0
 
+# Database
+Flask-SQLAlchemy==3.0.3
+SQLAlchemy==2.0.0
+psycopg2-binary==2.9.3  # PostgreSQL driver
+
 # Email & notifications
 python-smtplib==1.0.0
+twilio==8.2.0  # SMS alerts
+requests==2.31.0  # Slack/Discord webhooks
+
+# Machine Learning & Prediction
+numpy==1.24.0
+scikit-learn==1.2.0
 
 # Testing
 pytest==7.2.0
@@ -14,3 +25,4 @@ pytest-flask==1.2.0
 
 # Production
 Werkzeug==2.3.0
+
