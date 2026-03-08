@@ -25,7 +25,8 @@ class JamalCryptoMiner:
         self.name = "Jamal"
         self.title = "Crypto Mining Master"
         self.bot_token = os.getenv('JAMAL_BOT_TOKEN')
-        self.telegram_channel = os.getenv('JAMAL_TELEGRAM_CHANNEL', '@jamal_crypto_mining')
+        self.telegram_mode = "direct_chat"  # Respond in direct chat with user
+        self.bot_username = "@jamal_png_bot"
         self.enabled = bool(self.bot_token)  # Only enabled if bot token configured
     
     def spawn_jamal(self):
