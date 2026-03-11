@@ -1,0 +1,36 @@
+{
+  "trip": {
+    "origin": "SAN",
+    "destination": "ATH",
+    "departDate": "2026-06-12",
+    "returnDate": "2026-06-22",
+    "passengers": 2,
+    "class": "economy",
+    "maxStops": 1,
+    "preferredArrivalWindow": "06:00-14:00"
+  },
+  "alerts": {
+    "priceDropThreshold": 15,
+    "targetPricePerPerson": null,
+    "enabled": true
+  },
+  "schedule": {
+    "checkTimes": ["08:00", "20:00"],
+    "timezone": "America/Los_Angeles"
+  },
+  "apis": {
+    "kiwi": {
+      "enabled": false,
+      "apiKey": null
+    },
+    "amadeus": {
+      "enabled": false,
+      "clientId": null,
+      "clientSecret": null
+    }
+  },
+  "points": {
+    "amexPlatinum": 250000,
+    "trackTransferDeals": true
+  }
+}

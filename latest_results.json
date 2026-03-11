@@ -1,0 +1,605 @@
+{
+  "timestamp": "2026-02-19T15:13:03.828Z",
+  "latest_flights": {
+    "timestamp": "2026-02-19T15:13:03.828Z",
+    "stats": {
+      "count": 10,
+      "min": 2402,
+      "max": 4856,
+      "avg": 2912,
+      "median": 2730,
+      "q1": 2595,
+      "q3": 2918
+    },
+    "trips": {
+      "2026-06-12": {
+        "flights": [
+          {
+            "airline": "Air Canada, United, Lufthansa",
+            "departure": "7:00\u202fAM",
+            "arrival": "10:10\u202fAM+1",
+            "duration": "17h 10m",
+            "layovers": 1,
+            "layover_city": "YUL",
+            "layover_duration": "2 h 34 m",
+            "price": 2402,
+            "class": "economy"
+          },
+          {
+            "airline": "British Airways",
+            "departure": "7:40\u202fPM",
+            "arrival": "2:00\u202fAM+2",
+            "duration": "20h 20m",
+            "layovers": 1,
+            "layover_city": "LHR",
+            "layover_duration": "6 h",
+            "price": 2504,
+            "class": "economy"
+          },
+          {
+            "airline": "Alaska, American, Finnair",
+            "departure": "9:14\u202fAM",
+            "arrival": "11:45\u202fAM+1",
+            "duration": "16h 31m",
+            "layovers": 1,
+            "layover_city": "DFW",
+            "layover_duration": "1 h 25 m",
+            "price": 2595,
+            "class": "economy"
+          },
+          {
+            "airline": "Alaska, American",
+            "departure": "7:00\u202fAM",
+            "arrival": "10:00\u202fAM+1",
+            "duration": "17h 0m",
+            "layovers": 1,
+            "layover_city": "JFK",
+            "layover_duration": "1 h 33 m",
+            "price": 2595,
+            "class": "economy"
+          },
+          {
+            "airline": "Alaska, American",
+            "departure": "8:00\u202fAM",
+            "arrival": "11:00\u202fAM+1",
+            "duration": "17h 0m",
+            "layovers": 1,
+            "layover_city": "ORD",
+            "layover_duration": "2 h 19 m",
+            "price": 2595,
+            "class": "economy"
+          },
+          {
+            "airline": "United, Lufthansa, Aegean",
+            "departure": "5:15\u202fPM",
+            "arrival": "10:00\u202fPM+1",
+            "duration": "18h 45m",
+            "layovers": 1,
+            "layover_city": "MUC",
+            "layover_duration": "5 h 5 m",
+            "price": 2653,
+            "class": "economy"
+          },
+          {
+            "airline": "United, Lufthansa",
+            "departure": "6:40\u202fAM",
+            "arrival": "10:35\u202fAM+1",
+            "duration": "17h 55m",
+            "layovers": 1,
+            "layover_city": "ORD",
+            "layover_duration": "3 h 11 m",
+            "price": 2702,
+            "class": "economy"
+          },
+          {
+            "airline": "British Airways",
+            "departure": "4:45\u202fPM",
+            "arrival": "7:35\u202fPM+1",
+            "duration": "16h 50m",
+            "layovers": 1,
+            "layover_city": "LHR",
+            "layover_duration": "2 h 10 m",
+            "price": 2730,
+            "class": "economy"
+          },
+          {
+            "airline": "United, Lufthansa",
+            "departure": "5:15\u202fPM",
+            "arrival": "6:45\u202fPM+1",
+            "duration": "15h 30m",
+            "layovers": 1,
+            "layover_city": "MUC",
+            "layover_duration": "1 h 45 m",
+            "price": 2765,
+            "class": "economy"
+          },
+          {
+            "airline": "United",
+            "departure": "4:09\u202fPM",
+            "arrival": "8:10\u202fPM+1",
+            "duration": "18h 1m",
+            "layovers": 2,
+            "layover_city": "",
+            "layover_duration": "",
+            "price": 2918,
+            "class": "economy"
+          },
+          {
+            "airline": "American, British Airways, Iberia, Finnair",
+            "departure": "9:55\u202fAM",
+            "arrival": "11:45\u202fAM+1",
+            "duration": "15h 50m",
+            "layovers": 1,
+            "layover_city": "",
+            "layover_duration": "",
+            "price": 2991,
+            "class": "economy"
+          },
+          {
+            "airline": "United, Brussels Airlines",
+            "departure": "8:00\u202fAM",
+            "arrival": "10:00\u202fAM+1",
+            "duration": "16h 0m",
+            "layovers": 1,
+            "layover_city": "IAD",
+            "layover_duration": "1 h 7 m",
+            "price": 4856,
+            "class": "economy"
+          }
+        ],
+        "best_price": 2402,
+        "average_price": 2912,
+        "price_count": 10
+      }
+    }
+  },
+  "alert": {
+    "alert": true,
+    "price": 1150,
+    "airline": "Best Available",
+    "date": "2025-06-12"
+  },
+  "trends": {
+    "period": "last_7_days",
+    "trips": [
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2025-06-12",
+        "best_price": 1150,
+        "average_price": 1250,
+        "flight_options": 3
+      },
+      {
+        "date": "2026-06-12",
+        "best_price": 2201,
+        "average_price": 2983,
+        "flight_options": 1
+      },
+      {
+        "date": "2026-06-12",
+        "best_price": 2201,
+        "average_price": 2983,
+        "flight_options": 1
+      },
+      {
+        "date": "2026-06-12",
+        "best_price": 2403,
+        "average_price": 2954,
+        "flight_options": 1
+      },
+      {
+        "date": "2026-06-12",
+        "best_price": 2403,
+        "average_price": 2954,
+        "flight_options": 1
+      },
+      {
+        "date": "2026-06-12",
+        "best_price": 2403,
+        "average_price": 2954,
+        "flight_options": 1
+      },
+      {
+        "date": "2026-06-12",
+        "best_price": 2403,
+        "average_price": 2954,
+        "flight_options": 1
+      },
+      {
+        "date": "2026-06-12",
+        "best_price": 2201,
+        "average_price": 2999,
+        "flight_options": 1
+      },
+      {
+        "date": "2026-06-12",
+        "best_price": 2403,
+        "average_price": 2954,
+        "flight_options": 1
+      },
+      {
+        "date": "2026-06-12",
+        "best_price": 2403,
+        "average_price": 2954,
+        "flight_options": 1
+      },
+      {
+        "date": "2026-06-12",
+        "best_price": 2403,
+        "average_price": 2954,
+        "flight_options": 0
+      },
+      {
+        "date": "2026-06-12",
+        "best_price": 2403,
+        "average_price": 2954,
+        "flight_options": 0
+      },
+      {
+        "date": "2026-06-12",
+        "best_price": 2403,
+        "average_price": 2954,
+        "flight_options": 0
+      },
+      {
+        "date": "2026-06-12",
+        "best_price": 2403,
+        "average_price": 2954,
+        "flight_options": 0
+      },
+      {
+        "date": "2026-06-12",
+        "best_price": 2403,
+        "average_price": 2954,
+        "flight_options": 0
+      },
+      {
+        "date": "2026-06-12",
+        "best_price": 2403,
+        "average_price": 2954,
+        "flight_options": 0
+      },
+      {
+        "date": "2026-06-12",
+        "best_price": 2403,
+        "average_price": 2954,
+        "flight_options": 0
+      },
+      {
+        "date": "2026-06-12",
+        "best_price": 2403,
+        "average_price": 2954,
+        "flight_options": 0
+      },
+      {
+        "date": "2026-06-12",
+        "best_price": 2403,
+        "average_price": 2954,
+        "flight_options": 0
+      },
+      {
+        "date": "2026-06-12",
+        "best_price": 2403,
+        "average_price": 2954,
+        "flight_options": 0
+      },
+      {
+        "date": "2026-06-12",
+        "best_price": 2403,
+        "average_price": 2954,
+        "flight_options": 0
+      },
+      {
+        "date": "2026-06-12",
+        "best_price": 2403,
+        "average_price": 2954,
+        "flight_options": 0
+      },
+      {
+        "date": "2026-06-12",
+        "best_price": 2402,
+        "average_price": 2912,
+        "flight_options": 12
+      }
+    ]
+  }
+}

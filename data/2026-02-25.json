@@ -1,0 +1,65 @@
+{
+  "timestamp": "2026-02-25T21:33:27.763002",
+  "route": "SAN\u2192ATH",
+  "trip_date": "2026-06-12",
+  "return_date": "2026-06-22",
+  "passengers": 2,
+  "flights": [
+    {
+      "airline": "DeltaKLM, Virgin Atlantic",
+      "arrival": "7:50\u202fAM+2",
+      "booking_url": "https://www.google.com/travel/flights?q=Flights%20from%20SAN%20to%20ATH%20on%202026-06-12%20returning%202026-06-22%20for%202%20adults",
+      "departure": "10:10\u202fPM",
+      "duration": "23 hr 40 min",
+      "layover": "8 hr 17 min in JFK",
+      "layover_time": "8 hr 17 min",
+      "price": "$2,532",
+      "stops": "1 stop"
+    },
+    {
+      "airline": "Air CanadaUnited, Lufthansa",
+      "arrival": "10:10\u202fAM+1",
+      "booking_url": "https://www.google.com/travel/flights?q=Flights%20from%20SAN%20to%20ATH%20on%202026-06-12%20returning%202026-06-22%20for%202%20adults",
+      "departure": "7:00\u202fAM",
+      "duration": "17 hr 10 min",
+      "layover": "2 hr 34 min in YUL",
+      "layover_time": "2 hr 34 min",
+      "price": "$2,540",
+      "stops": "1 stop"
+    },
+    {
+      "airline": "Alaska, American",
+      "arrival": "11:00\u202fAM+1",
+      "booking_url": "https://www.google.com/travel/flights?q=Flights%20from%20SAN%20to%20ATH%20on%202026-06-12%20returning%202026-06-22%20for%202%20adults",
+      "departure": "7:00\u202fAM",
+      "duration": "18 hr",
+      "layover": "3 hr 16 min in ORD",
+      "layover_time": "3 hr 16 min",
+      "price": "$2,594",
+      "stops": "1 stop"
+    },
+    {
+      "airline": "United",
+      "arrival": "10:35\u202fAM+2",
+      "booking_url": "https://www.google.com/travel/flights?q=Flights%20from%20SAN%20to%20ATH%20on%202026-06-12%20returning%202026-06-22%20for%202%20adults",
+      "departure": "10:40\u202fPM",
+      "duration": "25 hr 55 min",
+      "layover": "11 hr 31 min in ORD",
+      "layover_time": "11 hr 31 min",
+      "price": "$2,621",
+      "stops": "1 stop"
+    },
+    {
+      "airline": "Alaska, American",
+      "arrival": "10:00\u202fAM+1",
+      "booking_url": "https://www.google.com/travel/flights?q=Flights%20from%20SAN%20to%20ATH%20on%202026-06-12%20returning%202026-06-22%20for%202%20adults",
+      "departure": "7:00\u202fAM",
+      "duration": "17 hr",
+      "layover": "1 hr 26 min in JFK",
+      "layover_time": "1 hr 26 min",
+      "price": "$2,714",
+      "stops": "1 stop"
+    }
+  ],
+  "source": "google_flights_api"
+}

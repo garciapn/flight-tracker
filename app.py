@@ -515,5 +515,16 @@ def api_data():
         "flights": flights
     })
 
+@app.route('/health')
+def health():
+    """Health check endpoint"""
+    latest_data = get_latest_flight_data()
+    return jsonify({
+        "status": "ok",
+        "service": "flight-tracker",
+        "timestamp": datetime.now().isoformat(),
+        "data_available": latest_data is not None
+    })
+
 if __name__ == '__main__':
     app.run(debug=True, port=3737, host='localhost')

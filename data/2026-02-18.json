@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-02-18T23:00:38.481Z",
+  "stats": {
+    "count": 11,
+    "min": 2403,
+    "max": 4403,
+    "avg": 2954
+  },
+  "flights": [],
+  "raw": {
+    "pageText": ""
+  }
+}

@@ -1,27 +1,11 @@
-# Environment
 .env
 .env.local
-*.pem
-
-# Python
-__pycache__/
 *.pyc
-*.pyo
-venv/
-.venv/
-env/
-
-# OS
+__pycache__/
 .DS_Store
-.idea/
-*.swp
-
-# Data & Logs
-data/
-alerts/
 *.log
-tmp/
+venv/
+node_modules/
+.vscode/
+.idea/
 
-# Artifacts
-.claude/
-*.html.bak

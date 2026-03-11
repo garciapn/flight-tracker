@@ -1,0 +1,21 @@
+{
+  "name": "flight-tracker",
+  "version": "1.0.0",
+  "description": "Flight price tracker for SAN → ATH (June 12-22, 2026)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "scrape": "node scraper-final.js",
+    "track": "node auto-track.js",
+    "report": "node weekly-report.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["flight", "tracker", "scraper"],
+  "author": "Paolo",
+  "license": "ISC",
+  "dependencies": {
+    "chart.js": "^4.4.7",
+    "express": "^4.21.2",
+    "puppeteer": "^23.11.1"
+  }
+}

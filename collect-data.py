@@ -10,6 +10,7 @@ import os
 from datetime import datetime
 import subprocess
 import sys
+import requests
 
 # Paths
 BASE_DIR = "/Users/gerald/.openclaw/workspace/flight-tracker"
@@ -24,6 +25,27 @@ def log_print(msg, level="INFO"):
     """Print with timestamp"""
     ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     print(f"[{ts}] {level}: {msg}", flush=True)
+
+def send_telegram_alert(message):
+    """Send flight alert via Jeff's Telegram bot"""
+    # Jeff's bot
+    bot_token = "8320727870:AAGgiQV9pcrgPR3tVBV3cI_2NzuZjQeZasc"
+    chat_id = "5851420265"  # Paolo's chat
+    
+    try:
+        url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
+        payload = {
+            "chat_id": chat_id,
+            "text": message,
+            "parse_mode": "HTML"
+        }
+        response = requests.post(url, json=payload, timeout=5)
+        if response.status_code == 200:
+            log_print(f"Alert sent to Telegram: {message[:50]}...", "INFO")
+        else:
+            log_print(f"Telegram error: {response.status_code}", "WARN")
+    except Exception as e:
+        log_print(f"Failed to send Telegram alert: {e}", "WARN")
 
 def query_flights_amadeus():
     """Fetch real flight data from Amadeus API"""
@@ -670,12 +692,18 @@ def check_price_alert(data, config):
     # Get best price
     best_flight = flights[0]
     price_str = best_flight.get('price', '$0')
-    price = int(price_str.replace('$', '').replace(',', ''))
+    # Handle both string and int formats
+    if isinstance(price_str, int):
+        price = price_str
+    else:
+        price = int(price_str.replace('$', '').replace(',', ''))
     
     threshold = config.get('price_alert_threshold', 1200)
     
     if price < threshold:
         log_print(f"🚨 ALERT: Price ${price} is below threshold ${threshold}!")
+        alert_msg = f"✈️ <b>Flight Alert!</b>\n\nPrice: <b>${price:,}</b> per person\nThreshold: ${threshold:,}\nAirline: {best_flight.get('airline', 'Multiple')}\n\n🔗 <a href='https://www.google.com/travel/flights'>Book now</a>"
+        send_telegram_alert(alert_msg)
         return {
             'airline': best_flight.get('airline'),
             'price': price,
@@ -726,6 +754,18 @@ def main():
             log_print(f"✅ Alert saved: {alert_file}")
         except:
             pass
+    
+    # Send daily summary to Jeff
+    flights = data.get('flights', [])
+    if flights:
+        best_flight = flights[0]
+        best_price = best_flight.get('price', 'N/A')
+        if isinstance(best_price, int):
+            best_price = f"${best_price:,}"
+        
+        time_of_day = "Morning" if datetime.now().hour < 12 else "Evening"
+        summary_msg = f"✈️ <b>Flight Tracker {time_of_day} Update</b>\n\n<b>SAN → ATH (June 12-22)</b>\n\nBest Price: <b>{best_price}</b>/person\nFlights Found: {len(flights)}\n\n⏰ Updated: {datetime.now().strftime('%I:%M %p')}"
+        send_telegram_alert(summary_msg)
     
     log_print("=" * 60)
     log_print("✅ Data collection complete")
