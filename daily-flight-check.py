@@ -160,9 +160,16 @@ class DailyFlightCheck:
             stops = flight.get("stops", "0 stops")
             departure = flight.get("departure", "N/A")
             arrival = flight.get("arrival", "N/A")
+            layover = flight.get("layover", "N/A")
+            layover_time = flight.get("layover_time", "N/A")
             
             message += f"{rank}. *${price}* (${per_person}/pp)\n"
             message += f"   ✈️ {airline} | {duration} | {stops}\n"
+            
+            # Add layover info if available
+            if layover and layover != "N/A" and stops != "0 stops":
+                message += f"   ✋ Layover: {layover} ({layover_time})\n"
+            
             message += f"   📅 {departure} → {arrival}\n"
             message += f"   💰 Total: ${price}\n\n"
         
@@ -171,6 +178,7 @@ class DailyFlightCheck:
         message += "• Arriving by 6:00 PM local time\n"
         message += f"• {stats.get('total_flights', 0)} total flights found\n\n"
         
+        message += "⚠️ *Note:* Click on any flight to see full layover details (city, duration, etc) on the booking site.\n\n"
         message += "*Next check:* In 12 hours\n"
         message += "*Powered by Frank* 🚀"
         
