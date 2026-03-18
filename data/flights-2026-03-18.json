@@ -1,0 +1,186 @@
+{
+  "timestamp": "2026-03-18T06:19:49.705Z",
+  "trip": {
+    "origin": "SAN",
+    "destination": "ATH",
+    "departure": "2026-06-12",
+    "return": "2026-06-22",
+    "passengers": 2
+  },
+  "summary": {
+    "total": 15,
+    "topOptions": 15,
+    "minPrice": 995,
+    "maxPrice": 1349,
+    "avgPrice": 1168,
+    "medianPrice": 1159,
+    "recommendedBudget": 1119
+  },
+  "flights": [
+    {
+      "rank": 1,
+      "price": 995,
+      "pricePerPerson": 498,
+      "currency": "USD",
+      "airline": "Lufthansa",
+      "duration": "14h 10m",
+      "stops": "1 stop",
+      "departure": "2:00 PM",
+      "arrival": "5:10 AM+1"
+    },
+    {
+      "rank": 2,
+      "price": 1039,
+      "pricePerPerson": 520,
+      "currency": "USD",
+      "airline": "Iberia",
+      "duration": "17h 15m",
+      "stops": "2 stops",
+      "departure": "7:00 AM",
+      "arrival": "1:15 PM+1"
+    },
+    {
+      "rank": 3,
+      "price": 1079,
+      "pricePerPerson": 540,
+      "currency": "USD",
+      "airline": "AEGEAN Airlines",
+      "duration": "17h 00m",
+      "stops": "2 stops",
+      "departure": "8:00 AM",
+      "arrival": "12:00 PM+1"
+    },
+    {
+      "rank": 4,
+      "price": 1089,
+      "pricePerPerson": 545,
+      "currency": "USD",
+      "airline": "KLM Royal Dutch",
+      "duration": "16h 45m",
+      "stops": "1 stop",
+      "departure": "1:45 PM",
+      "arrival": "6:55 AM+1"
+    },
+    {
+      "rank": 5,
+      "price": 1099,
+      "pricePerPerson": 550,
+      "currency": "USD",
+      "airline": "American Airlines",
+      "duration": "16h 20m",
+      "stops": "1 stop",
+      "departure": "6:30 AM",
+      "arrival": "9:45 AM+1"
+    },
+    {
+      "rank": 6,
+      "price": 1119,
+      "pricePerPerson": 560,
+      "currency": "USD",
+      "airline": "TAP Air Portugal",
+      "duration": "16h 50m",
+      "stops": "1 stop",
+      "departure": "5:00 PM",
+      "arrival": "8:10 AM+1"
+    },
+    {
+      "rank": 7,
+      "price": 1149,
+      "pricePerPerson": 575,
+      "currency": "USD",
+      "airline": "United Airlines",
+      "duration": "15h 45m",
+      "stops": "1 stop",
+      "departure": "10:00 AM",
+      "arrival": "2:15 PM+1"
+    },
+    {
+      "rank": 8,
+      "price": 1159,
+      "pricePerPerson": 580,
+      "currency": "USD",
+      "airline": "Czech Airlines",
+      "duration": "15h 30m",
+      "stops": "1 stop",
+      "departure": "3:20 PM",
+      "arrival": "6:30 AM+1"
+    },
+    {
+      "rank": 9,
+      "price": 1175,
+      "pricePerPerson": 588,
+      "currency": "USD",
+      "airline": "Swiss Int'l Air",
+      "duration": "15h 00m",
+      "stops": "1 stop",
+      "departure": "8:15 AM",
+      "arrival": "11:20 AM+1"
+    },
+    {
+      "rank": 10,
+      "price": 1199,
+      "pricePerPerson": 600,
+      "currency": "USD",
+      "airline": "Brussels Airlines",
+      "duration": "16h 00m",
+      "stops": "1 stop",
+      "departure": "10:45 AM",
+      "arrival": "1:55 PM+1"
+    },
+    {
+      "rank": 11,
+      "price": 1229,
+      "pricePerPerson": 615,
+      "currency": "USD",
+      "airline": "Austrian Airlines",
+      "duration": "16h 20m",
+      "stops": "1 stop",
+      "departure": "2:30 PM",
+      "arrival": "5:40 AM+1"
+    },
+    {
+      "rank": 12,
+      "price": 1249,
+      "pricePerPerson": 625,
+      "currency": "USD",
+      "airline": "Air France",
+      "duration": "15h 20m",
+      "stops": "1 stop",
+      "departure": "9:30 AM",
+      "arrival": "12:40 PM+1"
+    },
+    {
+      "rank": 13,
+      "price": 1289,
+      "pricePerPerson": 645,
+      "currency": "USD",
+      "airline": "Finnair",
+      "duration": "15h 55m",
+      "stops": "1 stop",
+      "departure": "6:50 AM",
+      "arrival": "10:00 AM+1"
+    },
+    {
+      "rank": 14,
+      "price": 1299,
+      "pricePerPerson": 650,
+      "currency": "USD",
+      "airline": "Turkish Airlines",
+      "duration": "17h 30m",
+      "stops": "1 stop",
+      "departure": "11:00 PM",
+      "arrival": "10:30 AM+1"
+    },
+    {
+      "rank": 15,
+      "price": 1349,
+      "pricePerPerson": 675,
+      "currency": "USD",
+      "airline": "Alitalia",
+      "duration": "14h 45m",
+      "stops": "1 stop",
+      "departure": "12:00 PM",
+      "arrival": "3:15 PM+1"
+    }
+  ]
+}

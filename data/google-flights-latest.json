@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-03-17T23:19:55.151019",
+  "route": "SAN\u2192ATH",
+  "dates": {
+    "depart": "20260612",
+    "return": "20260622"
+  },
+  "passengers": 2,
+  "flights_found": 0,
+  "top_15": [],
+  "errors": []
+}
