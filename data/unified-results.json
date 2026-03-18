@@ -1,0 +1,166 @@
+{
+  "timestamp": "2026-03-17T23:16:55.383593",
+  "route": "SAN\u2192ATH",
+  "dates": {
+    "depart": "2026-06-12",
+    "return": "2026-06-22"
+  },
+  "passengers": 2,
+  "sources": {
+    "amadeus": 50,
+    "google": 0,
+    "serpapi": 0
+  },
+  "top_15": [
+    {
+      "airline": "VS",
+      "departure_time": "2026-06-12T22:10:00",
+      "arrival_time": "2026-06-14T13:20:00",
+      "duration": "PT29H10M",
+      "stops": 1,
+      "price": 2973.06,
+      "source": "amadeus",
+      "booking_url": null
+    },
+    {
+      "airline": "UA",
+      "departure_time": "2026-06-12T22:30:00",
+      "arrival_time": "2026-06-14T08:10:00",
+      "duration": "PT23H40M",
+      "stops": 1,
+      "price": 3043.46,
+      "source": "amadeus",
+      "booking_url": null
+    },
+    {
+      "airline": "VS",
+      "departure_time": "2026-06-12T22:10:00",
+      "arrival_time": "2026-06-14T13:20:00",
+      "duration": "PT29H10M",
+      "stops": 1,
+      "price": 3047.86,
+      "source": "amadeus",
+      "booking_url": null
+    },
+    {
+      "airline": "AC",
+      "departure_time": "2026-06-12T08:10:00",
+      "arrival_time": "2026-06-13T10:05:00",
+      "duration": "PT15H55M",
+      "stops": 1,
+      "price": 3050.26,
+      "source": "amadeus",
+      "booking_url": null
+    },
+    {
+      "airline": "UA",
+      "departure_time": "2026-06-12T22:30:00",
+      "arrival_time": "2026-06-14T08:10:00",
+      "duration": "PT23H40M",
+      "stops": 1,
+      "price": 3053.26,
+      "source": "amadeus",
+      "booking_url": null
+    },
+    {
+      "airline": "AC",
+      "departure_time": "2026-06-12T11:55:00",
+      "arrival_time": "2026-06-14T11:10:00",
+      "duration": "PT37H15M",
+      "stops": 1,
+      "price": 3060.06,
+      "source": "amadeus",
+      "booking_url": null
+    },
+    {
+      "airline": "UA",
+      "departure_time": "2026-06-12T11:55:00",
+      "arrival_time": "2026-06-14T11:10:00",
+      "duration": "PT37H15M",
+      "stops": 1,
+      "price": 3062.46,
+      "source": "amadeus",
+      "booking_url": null
+    },
+    {
+      "airline": "LH",
+      "departure_time": "2026-06-12T17:15:00",
+      "arrival_time": "2026-06-13T18:35:00",
+      "duration": "PT15H20M",
+      "stops": 1,
+      "price": 3099.86,
+      "source": "amadeus",
+      "booking_url": null
+    },
+    {
+      "airline": "UA",
+      "departure_time": "2026-06-12T08:10:00",
+      "arrival_time": "2026-06-13T10:05:00",
+      "duration": "PT15H55M",
+      "stops": 1,
+      "price": 3158.66,
+      "source": "amadeus",
+      "booking_url": null
+    },
+    {
+      "airline": "VS",
+      "departure_time": "2026-06-12T22:10:00",
+      "arrival_time": "2026-06-14T08:20:00",
+      "duration": "PT24H10M",
+      "stops": 1,
+      "price": 3343.86,
+      "source": "amadeus",
+      "booking_url": null
+    },
+    {
+      "airline": "UA",
+      "departure_time": "2026-06-12T21:55:00",
+      "arrival_time": "2026-06-14T09:55:00",
+      "duration": "PT26H",
+      "stops": 1,
+      "price": 3349.46,
+      "source": "amadeus",
+      "booking_url": null
+    },
+    {
+      "airline": "UA",
+      "departure_time": "2026-06-12T21:55:00",
+      "arrival_time": "2026-06-14T09:55:00",
+      "duration": "PT26H",
+      "stops": 1,
+      "price": 3351.86,
+      "source": "amadeus",
+      "booking_url": null
+    },
+    {
+      "airline": "UA",
+      "departure_time": "2026-06-12T17:15:00",
+      "arrival_time": "2026-06-13T18:35:00",
+      "duration": "PT15H20M",
+      "stops": 1,
+      "price": 3366.26,
+      "source": "amadeus",
+      "booking_url": null
+    },
+    {
+      "airline": "UA",
+      "departure_time": "2026-06-12T17:15:00",
+      "arrival_time": "2026-06-13T18:35:00",
+      "duration": "PT15H20M",
+      "stops": 1,
+      "price": 3373.66,
+      "source": "amadeus",
+      "booking_url": null
+    },
+    {
+      "airline": "IB",
+      "departure_time": "2026-06-12T06:28:00",
+      "arrival_time": "2026-06-13T09:15:00",
+      "duration": "PT16H47M",
+      "stops": 1,
+      "price": 3403.86,
+      "source": "amadeus",
+      "booking_url": null
+    }
+  ]
+}
