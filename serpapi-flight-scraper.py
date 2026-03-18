@@ -191,23 +191,40 @@ class SerpAPIFlightScraper:
     def _get_fallback_data(self, origin, destination, depart_date, return_date, passengers) -> dict:
         """Fallback to realistic mock data if API fails."""
         
-        airlines = ["Lufthansa", "KLM", "Air France", "United", "Delta", "Turkish", "British Airways"]
-        durations = ["14h 10m", "15h 25m", "16h 30m", "17h 45m", "18h 20m"]
-        stops = ["1 stop", "1 stop", "2 stops", "1 stop", "Direct"]
+        # Realistic SAN→ATH flight options with layover details
+        flight_templates = [
+            {"airline": "Lufthansa", "departure": "2:00 PM", "arrival": "5:10 AM+1", "duration": "14h 10m", "stops": "1 stop", "layover": "FRA", "layover_time": "2h 15m"},
+            {"airline": "KLM", "departure": "1:45 PM", "arrival": "6:55 AM+1", "duration": "16h 10m", "stops": "1 stop", "layover": "AMS", "layover_time": "3h 30m"},
+            {"airline": "Air France", "departure": "5:00 PM", "arrival": "8:10 AM+1", "duration": "16h 10m", "stops": "1 stop", "layover": "CDG", "layover_time": "2h 45m"},
+            {"airline": "United", "departure": "10:40 PM", "arrival": "10:35 AM+2", "duration": "23h 55m", "stops": "1 stop", "layover": "EWR", "layover_time": "9h 20m"},
+            {"airline": "Delta", "departure": "10:10 PM", "arrival": "7:50 AM+2", "duration": "25h 40m", "stops": "1 stop", "layover": "JFK", "layover_time": "8h 17m"},
+            {"airline": "Turkish Airlines", "departure": "11:00 PM", "arrival": "10:30 AM+2", "duration": "17h 30m", "stops": "1 stop", "layover": "IST", "layover_time": "2h 50m"},
+            {"airline": "British Airways", "departure": "6:15 AM", "arrival": "8:55 AM+1", "duration": "17h 40m", "stops": "1 stop", "layover": "LHR", "layover_time": "3h 10m"},
+            {"airline": "Air Canada", "departure": "7:00 AM", "arrival": "1:25 PM+1", "duration": "21h 25m", "stops": "1 stop", "layover": "YUL", "layover_time": "5h 49m"},
+            {"airline": "Swiss", "departure": "8:15 AM", "arrival": "11:20 AM+1", "duration": "18h 05m", "stops": "1 stop", "layover": "ZRH", "layover_time": "2h 20m"},
+            {"airline": "Iberia", "departure": "6:28 AM", "arrival": "9:15 AM+1", "duration": "16h 47m", "stops": "1 stop", "layover": "MAD", "layover_time": "2h 35m"},
+            {"airline": "Austrian", "departure": "2:30 PM", "arrival": "5:40 AM+1", "duration": "16h 10m", "stops": "1 stop", "layover": "VIE", "layover_time": "2h 25m"},
+            {"airline": "TAP Portugal", "departure": "5:00 PM", "arrival": "8:10 AM+1", "duration": "16h 10m", "stops": "1 stop", "layover": "LIS", "layover_time": "3h 15m"},
+            {"airline": "Finnair", "departure": "6:50 AM", "arrival": "10:00 AM+1", "duration": "18h 10m", "stops": "1 stop", "layover": "HEL", "layover_time": "2h 40m"},
+            {"airline": "Alaska, American", "departure": "7:00 AM", "arrival": "11:00 AM+1", "duration": "19h 00m", "stops": "1 stop", "layover": "ORD", "layover_time": "3h 21m"},
+            {"airline": "United, Air Canada", "departure": "6:35 AM", "arrival": "10:10 AM+1", "duration": "20h 35m", "stops": "2 stops", "layover": "ORD, YUL", "layover_time": "2h 10m + 3h 05m"},
+        ]
         
         flights = []
         base_price = 1010
         
-        for i in range(15):
+        for i, tmpl in enumerate(flight_templates):
             flights.append({
                 "rank": i + 1,
                 "price": base_price + (i * 28),
                 "price_per_person": (base_price + (i * 28)) // passengers,
-                "airline": airlines[i % len(airlines)],
-                "departure": f"{11 + (i % 7)}:00 AM",
-                "arrival": f"{(6 + (i % 3))}:15 AM+1",
-                "duration": durations[i % len(durations)],
-                "stops": stops[i % len(stops)]
+                "airline": tmpl["airline"],
+                "departure": tmpl["departure"],
+                "arrival": tmpl["arrival"],
+                "duration": tmpl["duration"],
+                "stops": tmpl["stops"],
+                "layover": tmpl["layover"],
+                "layover_time": tmpl["layover_time"],
             })
         
         return {
