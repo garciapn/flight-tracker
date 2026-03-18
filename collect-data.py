@@ -27,9 +27,9 @@ def log_print(msg, level="INFO"):
     print(f"[{ts}] {level}: {msg}", flush=True)
 
 def send_telegram_alert(message):
-    """Send flight alert via Jeff's Telegram bot"""
-    # Jeff's bot
-    bot_token = "8320727870:AAGgiQV9pcrgPR3tVBV3cI_2NzuZjQeZasc"
+    """Send flight alert via Frank's Telegram bot"""
+    # Frank's bot
+    bot_token = "8515985195:AAG-7UB9iZ78bFgWZoNS9nFffxDyVF9z4jk"
     chat_id = "5851420265"  # Paolo's chat
     
     try:
