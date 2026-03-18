@@ -188,10 +188,18 @@ class DailyFlightCheck:
             bot_token = os.getenv("TELEGRAM_BOT_TOKEN")
             
             if not bot_token:
-                # Fallback: try to use the Jamal bot if available
+                # Fallback: try Frank's token
+                bot_token = os.getenv("FRANK_BOT_TOKEN")
+            
+            if not bot_token:
+                # Fallback: try Jamal bot if available
                 bot_token = os.getenv("JAMAL_BOT_TOKEN")
             
             if not bot_token:
+                # Last resort: hardcode Frank's known token
+                bot_token = "8515985195:AAG-7UB9iZ78bFgWZoNS9nFffxDyVF9z4jk"
+            
+            if not bot_token or bot_token == "UNSET":
                 self.log("⚠️  No Telegram bot token configured", level="WARN")
                 # Save message to file anyway
                 msg_file = self.data_dir / f"telegram-message-{self.run_id}.txt"
