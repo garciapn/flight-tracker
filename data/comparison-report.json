@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-03-17T23:21:56.584938",
+  "route": "SAN\u2192ATH",
+  "summary": {
+    "amadeus_flights": 15,
+    "google_flights": 0,
+    "recommendation": "amadeus"
+  },
+  "amadeus_stats": {
+    "count": 15,
+    "min_price": 2973.06,
+    "max_price": 3403.86,
+    "avg_price": 3182.5266666666666,
+    "median_price": 3099.86
+  },
+  "google_stats": {
+    "count": 0,
+    "min_price": null,
+    "max_price": null,
+    "avg_price": null
+  },
+  "matching_analysis": {
+    "exact_matches": 0,
+    "close_matches": 0,
+    "match_rate_percent": 0
+  }
+}

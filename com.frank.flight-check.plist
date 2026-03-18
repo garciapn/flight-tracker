@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.frank.flight-check</string>
+	
+	<key>ProgramArguments</key>
+	<array>
+		<string>/bin/bash</string>
+		<string>-c</string>
+		<string>cd /Users/gerald/.openclaw/workspace/flight-tracker && source venv/bin/activate && python3 daily-flight-check.py</string>
+	</array>
+	
+	<key>StartCalendarInterval</key>
+	<array>
+		<!-- 6 AM PDT (6:00 AM every day) -->
+		<dict>
+			<key>Hour</key>
+			<integer>6</integer>
+			<key>Minute</key>
+			<integer>0</integer>
+		</dict>
+		<!-- 6 PM PDT (6:00 PM every day) -->
+		<dict>
+			<key>Hour</key>
+			<integer>18</integer>
+			<key>Minute</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	
+	<key>StandardOutPath</key>
+	<string>/Users/gerald/.openclaw/workspace/flight-tracker/logs/frank-flight-check.log</string>
+	
+	<key>StandardErrorPath</key>
+	<string>/Users/gerald/.openclaw/workspace/flight-tracker/logs/frank-flight-check-errors.log</string>
+	
+	<key>WorkingDirectory</key>
+	<string>/Users/gerald/.openclaw/workspace/flight-tracker</string>
+	
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>PATH</key>
+		<string>/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+		<key>HOME</key>
+		<string>/Users/gerald</string>
+		<key>PYTHONUNBUFFERED</key>
+		<string>1</string>
+	</dict>
+	
+	<key>Nice</key>
+	<integer>10</integer>
+	
+	<key>ProcessType</key>
+	<string>Background</string>
+	
+	<key>RunAtLoad</key>
+	<false/>
+	
+	<key>StartInterval</key>
+	<integer>43200</integer>
+</dict>
+</plist>

@@ -1,28 +1,13 @@
-# Core dependencies
-Flask==2.3.0
-requests==2.31.0
-python-dotenv==1.0.0
-gunicorn==20.1.0
+# Frank Flight Tracker - Python Dependencies
+# Install with: pip install -r requirements.txt
 
-# Database
-Flask-SQLAlchemy==3.0.3
-SQLAlchemy==2.0.0
-psycopg2-binary==2.9.3  # PostgreSQL driver
+# Web Scraping & Automation
+playwright>=1.58.0       # Headless browser automation for Google Flights
+requests>=2.31.0        # HTTP library for SerpAPI integration
 
-# Email & notifications
-python-smtplib==1.0.0
-twilio==8.2.0  # SMS alerts
-requests==2.31.0  # Slack/Discord webhooks
+# Configuration
+python-dotenv>=1.0.0    # Environment variable management
 
-# Machine Learning & Prediction
-numpy==1.24.0
-scikit-learn==1.2.0
-
-# Testing
-pytest==7.2.0
-pytest-cov==4.0.0
-pytest-flask==1.2.0
-
-# Production
-Werkzeug==2.3.0
-
+# Utilities (optional)
+Flask>=2.0.0            # Web framework (optional, for dashboard)
+SQLAlchemy>=2.0.0       # Database ORM (optional, for data persistence)

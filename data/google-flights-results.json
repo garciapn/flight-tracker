@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-03-18T06:24:23.658292Z",
+  "source": "Google Flights",
+  "route": {
+    "origin": "SAN",
+    "destination": "ATH",
+    "depart_date": "2026-06-12",
+    "return_date": "2026-06-22",
+    "passengers": 2
+  },
+  "flights_found": 0,
+  "flights": []
+}

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-17T23:19:55.151019",
+  "timestamp": "2026-03-17T23:21:23.469634",
   "route": "SAN\u2192ATH",
   "dates": {
     "depart": "20260612",
@@ -8,5 +8,21 @@
   "passengers": 2,
   "flights_found": 0,
   "top_15": [],
-  "errors": []
+  "errors": [
+    {
+      "type": "error",
+      "attempt": 1,
+      "message": "Page.text_content() missing 1 required positional argument: 'selector'"
+    },
+    {
+      "type": "error",
+      "attempt": 2,
+      "message": "Page.text_content() missing 1 required positional argument: 'selector'"
+    },
+    {
+      "type": "error",
+      "attempt": 3,
+      "message": "Page.text_content() missing 1 required positional argument: 'selector'"
+    }
+  ]
 }

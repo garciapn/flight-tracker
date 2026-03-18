@@ -1,0 +1,124 @@
+{
+  "flights": {
+    "lufthansa_11:00 am": {
+      "airline": "Lufthansa",
+      "prices": [
+        {
+          "timestamp": "2026-03-18T06:24:35.889613Z",
+          "price": 1010,
+          "price_per_person": 505
+        },
+        {
+          "timestamp": "2026-03-18T06:24:35.889613Z",
+          "price": 1206,
+          "price_per_person": 603
+        },
+        {
+          "timestamp": "2026-03-18T06:24:35.889613Z",
+          "price": 1402,
+          "price_per_person": 701
+        }
+      ]
+    },
+    "klm_12:00 am": {
+      "airline": "KLM",
+      "prices": [
+        {
+          "timestamp": "2026-03-18T06:24:35.889613Z",
+          "price": 1038,
+          "price_per_person": 519
+        },
+        {
+          "timestamp": "2026-03-18T06:24:35.889613Z",
+          "price": 1234,
+          "price_per_person": 617
+        }
+      ]
+    },
+    "air france_13:00 am": {
+      "airline": "Air France",
+      "prices": [
+        {
+          "timestamp": "2026-03-18T06:24:35.889613Z",
+          "price": 1066,
+          "price_per_person": 533
+        },
+        {
+          "timestamp": "2026-03-18T06:24:35.889613Z",
+          "price": 1262,
+          "price_per_person": 631
+        }
+      ]
+    },
+    "united_14:00 am": {
+      "airline": "United",
+      "prices": [
+        {
+          "timestamp": "2026-03-18T06:24:35.889613Z",
+          "price": 1094,
+          "price_per_person": 547
+        },
+        {
+          "timestamp": "2026-03-18T06:24:35.889613Z",
+          "price": 1290,
+          "price_per_person": 645
+        }
+      ]
+    },
+    "delta_15:00 am": {
+      "airline": "Delta",
+      "prices": [
+        {
+          "timestamp": "2026-03-18T06:24:35.889613Z",
+          "price": 1122,
+          "price_per_person": 561
+        },
+        {
+          "timestamp": "2026-03-18T06:24:35.889613Z",
+          "price": 1318,
+          "price_per_person": 659
+        }
+      ]
+    },
+    "turkish_16:00 am": {
+      "airline": "Turkish",
+      "prices": [
+        {
+          "timestamp": "2026-03-18T06:24:35.889613Z",
+          "price": 1150,
+          "price_per_person": 575
+        },
+        {
+          "timestamp": "2026-03-18T06:24:35.889613Z",
+          "price": 1346,
+          "price_per_person": 673
+        }
+      ]
+    },
+    "british airways_17:00 am": {
+      "airline": "British Airways",
+      "prices": [
+        {
+          "timestamp": "2026-03-18T06:24:35.889613Z",
+          "price": 1178,
+          "price_per_person": 589
+        },
+        {
+          "timestamp": "2026-03-18T06:24:35.889613Z",
+          "price": 1374,
+          "price_per_person": 687
+        }
+      ]
+    }
+  },
+  "last_updated": "2026-03-18T06:24:35.889613Z",
+  "entries": [
+    {
+      "timestamp": "2026-03-18T06:24:35.889613Z",
+      "min_price": 1010,
+      "avg_price": 1206.0,
+      "max_price": 1402,
+      "flights_found": 15
+    }
+  ]
+}
