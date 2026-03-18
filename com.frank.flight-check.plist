@@ -9,7 +9,7 @@
 	<array>
 		<string>/bin/bash</string>
 		<string>-c</string>
-		<string>cd /Users/gerald/.openclaw/workspace/flight-tracker && source venv/bin/activate && python3 daily-flight-check.py</string>
+		<string>source /Users/gerald/.openclaw/workspace/scripts/load-tokens.sh && cd /Users/gerald/.openclaw/workspace/flight-tracker && source venv/bin/activate && python3 daily-flight-check.py</string>
 	</array>
 	
 	<key>StartCalendarInterval</key>
