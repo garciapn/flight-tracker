@@ -549,7 +549,10 @@
 
         async function loadData() {
             try {
-                const response = await fetch('/api/data');
+                const base = window.location.href.includes('github.io') 
+                    ? '/flight-tracker' 
+                    : '';
+                const response = await fetch(base + '/data/data.json');
                 const data = await response.json();
 
                 updateStats(data.latest);

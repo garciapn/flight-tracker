@@ -1,0 +1,356 @@
+{
+  "latest": {
+    "timestamp": "2026-03-30T15:00:30.830Z",
+    "stats": {
+      "min": 2550,
+      "max": 5216,
+      "avg": 3403,
+      "count": 11
+    }
+  },
+  "history": [
+    {
+      "timestamp": "2026-02-15T08:55:44.572Z",
+      "stats": {
+        "min": 2377,
+        "avg": 3179
+      }
+    },
+    {
+      "timestamp": "2026-02-16T16:00:14.459Z",
+      "stats": {
+        "min": 2397,
+        "avg": 3159
+      }
+    },
+    {
+      "timestamp": "2026-02-18T23:00:38.481Z",
+      "stats": {
+        "min": 2403,
+        "avg": 2954
+      }
+    },
+    {
+      "timestamp": "2026-02-19T15:13:03.828Z",
+      "stats": {
+        "min": 2402,
+        "avg": 2912
+      }
+    },
+    {
+      "timestamp": "2026-02-24T20:12:06.061Z",
+      "stats": {
+        "min": 2532,
+        "avg": 2814
+      }
+    },
+    {
+      "timestamp": "2026-02-25T21:33:27.763002",
+      "stats": {
+        "avg": null
+      }
+    },
+    {
+      "timestamp": "2026-02-26T20:00:13.662593",
+      "stats": {
+        "avg": null
+      }
+    },
+    {
+      "timestamp": "2026-02-27T20:00:15.094726",
+      "stats": {
+        "avg": null
+      }
+    },
+    {
+      "timestamp": "2026-02-28T20:09:57.706821",
+      "stats": {
+        "avg": null
+      }
+    },
+    {
+      "timestamp": "2026-03-01T16:01:16.083Z",
+      "stats": {
+        "min": 2428,
+        "avg": 2806
+      }
+    },
+    {
+      "timestamp": "2026-03-02T20:00:14.936198",
+      "stats": {
+        "min": 1059,
+        "avg": 1159
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:00:15.853913",
+      "stats": {
+        "min": 1087,
+        "avg": 1213
+      }
+    },
+    {
+      "timestamp": "2026-03-04T20:00:13.457190",
+      "stats": {
+        "min": 1096,
+        "avg": 1226
+      }
+    },
+    {
+      "timestamp": "2026-03-05T20:00:13.883367",
+      "stats": {
+        "min": 1119,
+        "avg": 1249
+      }
+    },
+    {
+      "timestamp": "2026-03-06T20:01:36.251027",
+      "stats": {
+        "min": 1120,
+        "avg": 1250
+      }
+    },
+    {
+      "timestamp": "2026-03-07T20:00:13.601003",
+      "stats": {
+        "min": 1120,
+        "avg": 1232
+      }
+    },
+    {
+      "timestamp": "2026-03-08T21:52:16.466958",
+      "stats": {
+        "min": 2482,
+        "avg": 2643
+      }
+    },
+    {
+      "timestamp": "2026-03-09T20:00:17.181103",
+      "stats": {
+        "min": 1162,
+        "avg": 1278
+      }
+    },
+    {
+      "timestamp": "2026-03-10T16:16:25.652549",
+      "stats": {
+        "min": 1162,
+        "avg": 1278
+      }
+    },
+    {
+      "timestamp": "2026-03-11T15:00:14.429Z",
+      "stats": {
+        "min": 2671,
+        "avg": 2930
+      }
+    },
+    {
+      "timestamp": "2026-03-12T15:00:13.884Z",
+      "stats": {
+        "min": 2740,
+        "avg": 3311
+      }
+    },
+    {
+      "timestamp": "2026-03-13T15:03:14.674Z",
+      "stats": {
+        "min": 2442,
+        "avg": 3057
+      }
+    },
+    {
+      "timestamp": "2026-03-14T20:00:17.045096",
+      "stats": {
+        "min": 1208,
+        "avg": 1322
+      }
+    },
+    {
+      "timestamp": "2026-03-15T20:00:18.309325",
+      "stats": {
+        "min": 1208,
+        "avg": 1322
+      }
+    },
+    {
+      "timestamp": "2026-03-16T20:00:16.100620",
+      "stats": {
+        "min": 1263,
+        "avg": 1382
+      }
+    },
+    {
+      "timestamp": "2026-03-17T20:00:16.761441",
+      "stats": {
+        "min": 1270,
+        "avg": 1414
+      }
+    },
+    {
+      "timestamp": "2026-03-18T20:00:18.508609",
+      "stats": {
+        "min": 1265,
+        "avg": 1409
+      }
+    },
+    {
+      "timestamp": "2026-03-19T20:00:16.823287",
+      "stats": {
+        "min": 1253,
+        "avg": 1372
+      }
+    },
+    {
+      "timestamp": "2026-03-20T08:00:22.744955",
+      "stats": {
+        "min": 1253,
+        "avg": 1372
+      }
+    },
+    {
+      "timestamp": "2026-03-21T15:00:17.465Z",
+      "stats": {
+        "min": 2241,
+        "avg": 3403
+      }
+    },
+    {
+      "timestamp": "2026-03-22T15:00:17.002Z",
+      "stats": {
+        "min": 2916,
+        "avg": 3361
+      }
+    },
+    {
+      "timestamp": "2026-03-23T03:00:22.111Z",
+      "stats": {
+        "min": 2446,
+        "avg": 3141
+      }
+    },
+    {
+      "timestamp": "2026-03-24T03:00:18.356Z",
+      "stats": {
+        "min": 2449,
+        "avg": 3382
+      }
+    },
+    {
+      "timestamp": "2026-03-25T15:00:19.266Z",
+      "stats": {
+        "min": 1841,
+        "avg": 3279
+      }
+    },
+    {
+      "timestamp": "2026-03-26T15:00:17.387Z",
+      "stats": {
+        "min": 2057,
+        "avg": 3276
+      }
+    },
+    {
+      "timestamp": "2026-03-27T03:00:19.251Z",
+      "stats": {
+        "min": 2389,
+        "avg": 3431
+      }
+    },
+    {
+      "timestamp": "2026-03-28T15:00:16.843Z",
+      "stats": {
+        "min": 2198,
+        "avg": 3380
+      }
+    },
+    {
+      "timestamp": "2026-03-29T15:00:17.881Z",
+      "stats": {
+        "min": 2256,
+        "avg": 3427
+      }
+    },
+    {
+      "timestamp": "2026-03-30T15:00:30.830Z",
+      "stats": {
+        "min": 2550,
+        "avg": 3403
+      }
+    }
+  ],
+  "flights": [
+    {
+      "airline": "Lufthansa",
+      "departure": "2:00 PM",
+      "arrival": "5:10 AM+1",
+      "duration": "14h 10m",
+      "stops": "1 stop",
+      "layover": "FRA",
+      "price": 1010
+    },
+    {
+      "airline": "KLM",
+      "departure": "1:45 PM",
+      "arrival": "6:55 AM+1",
+      "duration": "16h 10m",
+      "stops": "1 stop",
+      "layover": "AMS",
+      "price": 1038
+    },
+    {
+      "airline": "Air France",
+      "departure": "5:00 PM",
+      "arrival": "8:10 AM+1",
+      "duration": "16h 10m",
+      "stops": "1 stop",
+      "layover": "CDG",
+      "price": 1066
+    },
+    {
+      "airline": "United",
+      "departure": "10:40 PM",
+      "arrival": "10:35 AM+2",
+      "duration": "23h 55m",
+      "stops": "1 stop",
+      "layover": "EWR",
+      "price": 1094
+    },
+    {
+      "airline": "Delta",
+      "departure": "10:10 PM",
+      "arrival": "7:50 AM+2",
+      "duration": "25h 40m",
+      "stops": "1 stop",
+      "layover": "JFK",
+      "price": 1122
+    },
+    {
+      "airline": "Turkish Airlines",
+      "departure": "11:00 PM",
+      "arrival": "10:30 AM+2",
+      "duration": "17h 30m",
+      "stops": "1 stop",
+      "layover": "IST",
+      "price": 1150
+    },
+    {
+      "airline": "British Airways",
+      "departure": "6:15 AM",
+      "arrival": "8:55 AM+1",
+      "duration": "17h 40m",
+      "stops": "1 stop",
+      "layover": "LHR",
+      "price": 1178
+    },
+    {
+      "airline": "Air Canada",
+      "departure": "7:00 AM",
+      "arrival": "1:25 PM+1",
+      "duration": "21h 25m",
+      "stops": "1 stop",
+      "layover": "YUL",
+      "price": 1206
+    }
+  ]
+}
