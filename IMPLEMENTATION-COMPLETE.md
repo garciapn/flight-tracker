@@ -109,7 +109,7 @@ Complete workflow: scrape → aggregate → format → send.
 1. Run all 3 scrapers in parallel (30-45s total)
 2. Aggregate results with scoring
 3. Format message in Frank's style (Markdown)
-4. Send to Telegram (Paolo 5851420265)
+4. Send to Telegram (User ${TELEGRAM_CHAT_ID})
 5. Save daily report (JSON)
 6. Log all operations
 
@@ -506,7 +506,7 @@ log stream --predicate 'process == "python3"'
                       │
          ┌────────────▼──────────────┐
          │ Send to Telegram          │
-         │ Paolo (5851420265)        │
+         │ User (${TELEGRAM_CHAT_ID})        │
          └───────────────────────────┘
 
          ┌──────────────────────────────────┐
@@ -555,7 +555,7 @@ Frank Flight Tracker is a production-ready system that:
 ---
 
 **Created:** Gerald (OpenClaw)  
-**For:** Paolo G. (5851420265)  
+**For:** User G. (${TELEGRAM_CHAT_ID})  
 **Route:** SAN → ATH (June 12-22, 2026)  
 **Date:** 2026-03-17  
 **Status:** ✅ COMPLETE

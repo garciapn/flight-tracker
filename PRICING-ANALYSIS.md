@@ -3,7 +3,7 @@
 
 **Analysis Date:** February 26, 2026  
 **Trip Duration:** June 12-22, 2026 (10 days)  
-**Passengers:** 2 (Paolo + Brooke)
+**Passengers:** 2 (User + Brooke)
 
 ---
 

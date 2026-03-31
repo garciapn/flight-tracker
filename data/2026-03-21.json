@@ -1,0 +1,245 @@
+{
+  "timestamp": "2026-03-21T15:00:17.465Z",
+  "route": "SAN → ATH",
+  "dates": {
+    "depart": "2026-06-12",
+    "return": "2026-06-22"
+  },
+  "passengers": 2,
+  "flights": [
+    {
+      "airline": "United",
+      "departure": "10:30 PM",
+      "arrival": "8:10 AM+2",
+      "duration": "23 hr 40 min",
+      "stops": "1 stop",
+      "layover": "9 hr 2 min EWR",
+      "price": 2943,
+      "booking_url": "https://www.google.com/travel/flights?q=Flights%20from%20SAN%20to%20ATH%20on%202026-06-12%20returning%202026-06-22%20for%202%20adults"
+    },
+    {
+      "airline": "United, Air Canada",
+      "departure": "6:35 AM",
+      "arrival": "10:10 AM+1",
+      "duration": "17 hr 35 min",
+      "stops": "2 stops",
+      "layover": "",
+      "price": 2950,
+      "booking_url": "https://www.google.com/travel/flights?q=Flights%20from%20SAN%20to%20ATH%20on%202026-06-12%20returning%202026-06-22%20for%202%20adults"
+    },
+    {
+      "airline": "Alaska, American",
+      "departure": "7:00 AM",
+      "arrival": "11:00 AM+1",
+      "duration": "18 hr",
+      "stops": "1 stop",
+      "layover": "3 hr 21 min ORD",
+      "price": 2980,
+      "booking_url": "https://www.google.com/travel/flights?q=Flights%20from%20SAN%20to%20ATH%20on%202026-06-12%20returning%202026-06-22%20for%202%20adults"
+    },
+    {
+      "airline": "British AirwaysAmerican",
+      "departure": "7:40 PM",
+      "arrival": "2:00 AM+2",
+      "duration": "20 hr 20 min",
+      "stops": "1 stop",
+      "layover": "6 hr LHR",
+      "price": 3058,
+      "booking_url": "https://www.google.com/travel/flights?q=Flights%20from%20SAN%20to%20ATH%20on%202026-06-12%20returning%202026-06-22%20for%202%20adults"
+    },
+    {
+      "airline": "LufthansaUnited",
+      "departure": "5:15 PM",
+      "arrival": "11:05 PM+1",
+      "duration": "19 hr 50 min",
+      "stops": "1 stop",
+      "layover": "6 hr 5 min MUC",
+      "price": 3192,
+      "booking_url": "https://www.google.com/travel/flights?q=Flights%20from%20SAN%20to%20ATH%20on%202026-06-12%20returning%202026-06-22%20for%202%20adults"
+    }
+  ],
+  "stats": {
+    "count": 15,
+    "min": 2241,
+    "max": 6103,
+    "avg": 3403,
+    "median": 3355,
+    "q1": 2980,
+    "q3": 3482
+  },
+  "prices": [
+    2241,
+    2943,
+    2950,
+    2980,
+    3058,
+    3192,
+    3206,
+    3355,
+    3383,
+    3430,
+    3435,
+    3482,
+    3603,
+    3678,
+    6103
+  ],
+  "raw": {
+    "prices": [
+      2241,
+      2943,
+      2950,
+      2980,
+      3058,
+      3192,
+      3206,
+      3206,
+      3355,
+      3383,
+      3430,
+      3435,
+      3482,
+      3603,
+      3678,
+      6103
+    ],
+    "pageText": "Skip to main content\nAccessibility feedback\nTravel\nExplore\nFlights\nHotels\nVacation rentals\nChange appearance\nSign in\nLoading results\nFlight search\nRound trip\n2\nEconomy\nSan Diego SAN\nAthens ATH\nFilters\nAll filters\nStops\nAirlines\nBags\nPrice\nTimes\nEmissions\nConnecting airports\nDuration\nSearch results\n15 results returned.\nBest\nCheapest\nfrom \nFetching results\n $2,241\nTop departing flights\nRanked based on price and conveniencePrices include required taxes + fees for 2 adults. Optional charges and bag fees may apply. Passenger assistance info.\nSorted by top flights\n10:30 PM\n – \n8:10 AM+2\nUnited\n23 hr 40 min\nSAN–ATH\n1 stop\n9 hr 2 min EWR\n1,316 kg CO2e\n-13% emissions\n$2,943\nround trip\n6:35 AM\n – \n10:10 AM+1\nUnited, Air Canada\n17 hr 35 min\nSAN–ATH\n2 stops\nDEN, YUL\n1,741 kg CO2e\n+15% emissions\n$2,950\nround trip\n7:00 AM\n – \n11:00 AM+1\nAlaska, American\n18 hr\nSAN–ATH\n1 stop\n3 hr 21 min ORD\n1,475 kg CO2e\nAvg emissions\n$2,980\nround trip\nPrice insights\nPrices are currently typical\nTrack prices\nTrack prices from San Diego to Athens departing 2026-06-12 and returning 2026-06-22\nJun 12 – 22\nDate grid\nPrice graph\nOther departing flights\n7:40 PM\n – \n2:00 AM+2\nBritish AirwaysAmerican\n20 hr 20 min\nSAN–ATH\n1 stop\n6 hr LHR\n1,411 kg CO2e\n-7% emissions\n$3,058\nround trip\n5:15 PM\n – \n11:05 PM+1\nLufthansaUnited\n19 hr 50 min\nSAN–ATH\n1 stop\n6 hr 5 min MUC\n1,440 kg CO2e\nAvg emissions\n$3,192\nround trip\n6:50 AM\n – \n12:15 PM+1\nAmerican\n19 hr 25 min\nSAN–ATH\n1 stop\n3 hr 57 min CLT\n1,690 kg CO2e\n+11% emissions\n$3,206\nround trip\n7:00 AM\n – \n10:00 AM+1\nAlaska, American\n17 hr\nSAN–ATH\n1 stop\n1 hr 21 min JFK\n1,773 kg CO2e\n+17% emissions\n$3,206\nround trip\n5:15 PM\n – \n10:00 PM+1\nLufthansa, AegeanUnited\n18 hr 45 min\nSAN–ATH\n1 stop\n5 hr 5 min MUC\n1,426 kg CO2e\n-6% emissions\n$3,355\nround trip\n7:00 AM\n – \n1:25 PM+1\nAir CanadaUnited\n20 hr 25 min\nSAN–ATH\n1 stop\n5 hr 49 min YUL\n1,731 kg CO2e\n+14% emissions\n$3,383\nround trip\n5:15 PM\n – \n6:45 PM+1\nLufthansaUnited\n15 hr 30 min\nSAN–ATH\n1 stop\n1 hr 45 min MUC\n1,385 kg CO2e\n-9% emissions\n$3,430\nround trip\n4:45 PM\n – \n7:35 PM+1\nBritish Airways\n16 hr 50 min\nSAN–ATH\n1 stop\n2 hr 10 min LHR\n1,497 kg CO2e\nAvg emissions\n$3,435\nround trip\n9:54 AM\n – \n11:45 AM+1\nAmericanIberia, Finnair\n15 hr 51 min\nSAN–ATH\n1 stop\n40 min DFW\n1,498 kg CO2e\nAvg emissions\n$3,482\nround trip\n7:00 AM\n – \n10:10 AM+1\nAir CanadaUnited\n17 hr 10 min\nSAN–ATH\n1 stop\n2 hr 34 min YUL\n1,724 kg CO2e\n+14% emissions\n$3,603\nround trip\n10:00 PM\n – \n7:50 AM+2\nDeltaKLM\n23 hr 50 min\nSAN–ATH\n1 stop\n8 hr 34 min JFK\n1,555 kg CO2e\nAvg emissions\n$3,678\nround trip\n8:00 AM\n – \n10:00 AM+1\nUnitedBrussels Airlines\n16 hr\nSAN–ATH\n1 stop\n1 hr 12 min IAD\n1,317 kg CO2e\n-13% emissions\n$6,103\nround trip\nView more flights\nLanguage​English (United States)\nLocation​United States\nCurrencyUSD\nAbout\nPrivacy\nTerms\nJoin user studies\nFeedback\nHelp Center\n\nDisplayed currencies may differ from the currencies used to purchase flights. Learn more",
+    "flights": [
+      {
+        "departure": "10:30 PM",
+        "arrival": "8:10 AM+2",
+        "airline": "United",
+        "duration": "23 hr 40 min",
+        "stops": "1 stop",
+        "layover": "9 hr 2 min EWR",
+        "price": 2943
+      },
+      {
+        "departure": "6:35 AM",
+        "arrival": "10:10 AM+1",
+        "airline": "United, Air Canada",
+        "duration": "17 hr 35 min",
+        "stops": "2 stops",
+        "layover": "",
+        "price": 2950
+      },
+      {
+        "departure": "7:00 AM",
+        "arrival": "11:00 AM+1",
+        "airline": "Alaska, American",
+        "duration": "18 hr",
+        "stops": "1 stop",
+        "layover": "3 hr 21 min ORD",
+        "price": 2980
+      },
+      {
+        "departure": "7:40 PM",
+        "arrival": "2:00 AM+2",
+        "airline": "British AirwaysAmerican",
+        "duration": "20 hr 20 min",
+        "stops": "1 stop",
+        "layover": "6 hr LHR",
+        "price": 3058
+      },
+      {
+        "departure": "5:15 PM",
+        "arrival": "11:05 PM+1",
+        "airline": "LufthansaUnited",
+        "duration": "19 hr 50 min",
+        "stops": "1 stop",
+        "layover": "6 hr 5 min MUC",
+        "price": 3192
+      },
+      {
+        "departure": "6:50 AM",
+        "arrival": "12:15 PM+1",
+        "airline": "American",
+        "duration": "19 hr 25 min",
+        "stops": "1 stop",
+        "layover": "3 hr 57 min CLT",
+        "price": 3206
+      },
+      {
+        "departure": "7:00 AM",
+        "arrival": "10:00 AM+1",
+        "airline": "Alaska, American",
+        "duration": "17 hr",
+        "stops": "1 stop",
+        "layover": "1 hr 21 min JFK",
+        "price": 3206
+      },
+      {
+        "departure": "5:15 PM",
+        "arrival": "10:00 PM+1",
+        "airline": "Lufthansa, AegeanUnited",
+        "duration": "18 hr 45 min",
+        "stops": "1 stop",
+        "layover": "5 hr 5 min MUC",
+        "price": 3355
+      },
+      {
+        "departure": "7:00 AM",
+        "arrival": "1:25 PM+1",
+        "airline": "Air CanadaUnited",
+        "duration": "20 hr 25 min",
+        "stops": "1 stop",
+        "layover": "5 hr 49 min YUL",
+        "price": 3383
+      },
+      {
+        "departure": "5:15 PM",
+        "arrival": "6:45 PM+1",
+        "airline": "LufthansaUnited",
+        "duration": "15 hr 30 min",
+        "stops": "1 stop",
+        "layover": "1 hr 45 min MUC",
+        "price": 3430
+      },
+      {
+        "departure": "4:45 PM",
+        "arrival": "7:35 PM+1",
+        "airline": "British Airways",
+        "duration": "16 hr 50 min",
+        "stops": "1 stop",
+        "layover": "2 hr 10 min LHR",
+        "price": 3435
+      },
+      {
+        "departure": "9:54 AM",
+        "arrival": "11:45 AM+1",
+        "airline": "AmericanIberia, Finnair",
+        "duration": "15 hr 51 min",
+        "stops": "1 stop",
+        "layover": "40 min DFW",
+        "price": 3482
+      },
+      {
+        "departure": "7:00 AM",
+        "arrival": "10:10 AM+1",
+        "airline": "Air CanadaUnited",
+        "duration": "17 hr 10 min",
+        "stops": "1 stop",
+        "layover": "2 hr 34 min YUL",
+        "price": 3603
+      },
+      {
+        "departure": "10:00 PM",
+        "arrival": "7:50 AM+2",
+        "airline": "DeltaKLM",
+        "duration": "23 hr 50 min",
+        "stops": "1 stop",
+        "layover": "8 hr 34 min JFK",
+        "price": 3678
+      },
+      {
+        "departure": "8:00 AM",
+        "arrival": "10:00 AM+1",
+        "airline": "UnitedBrussels Airlines",
+        "duration": "16 hr",
+        "stops": "1 stop",
+        "layover": "1 hr 12 min IAD",
+        "price": 6103
+      }
+    ]
+  }
+}

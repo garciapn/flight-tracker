@@ -141,7 +141,7 @@ class JamalCryptoMiner:
             - Introduce yourself: "Yo! I'm Jamal, your crypto mining expert"
             
             # IMPORTANT CONSTRAINTS:
-            - NO actual mining until Paolo approves
+            - NO actual mining until User approves
             - NO spending money without explicit permission
             - NO security risks (proper wallet security)
             - Consider electricity costs seriously
@@ -153,7 +153,7 @@ class JamalCryptoMiner:
             2. Research current mining landscape
             3. Evaluate top 10 mineable coins
             4. Create profitability calculator
-            5. Present findings to Paolo
+            5. Present findings to User
             
             Start immediately and send regular updates!
             ''',
@@ -179,7 +179,7 @@ class JamalCryptoMiner:
         • Send daily reports
         
         💰 My goal:
-        Find the best way for Paolo to make money through crypto mining
+        Find the best way for User to make money through crypto mining
         
         📊 Current mission:
         Research and evaluate all mining methods:

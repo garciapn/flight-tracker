@@ -10,7 +10,7 @@ cd /Users/gerald/.openclaw/workspace/flight-tracker
 This will:
 1. ✅ Search for flights (SAN → ATH, June 12-22, 2 passengers)
 2. ✅ Return top 15 options with real prices
-3. ✅ Send formatted results to Telegram (Paolo: 5851420265)
+3. ✅ Send formatted results to Telegram (User: ${TELEGRAM_CHAT_ID})
 4. ✅ Save JSON data to `data/flights-YYYY-MM-DD.json`
 
 ## Manual Steps
@@ -55,7 +55,7 @@ File: `data/flights-YYYY-MM-DD.json`
 ```
 
 ### Telegram Message
-Auto-sent to: **Paolo (5851420265)**
+Auto-sent to: **User (${TELEGRAM_CHAT_ID})**
 ```
 🛫 *FLIGHT SEARCH COMPLETE*
 Route: SAN → ATH
@@ -97,7 +97,7 @@ Main agent can trigger this subagent for automated checks
 | Issue | Solution |
 |-------|----------|
 | No flights found | Script uses fallback real-world pricing data |
-| Telegram not sending | Check recipient ID in code (5851420265) |
+| Telegram not sending | Check recipient ID in code (${TELEGRAM_CHAT_ID}) |
 | Browser error | Clear `node_modules`, run `npm install` |
 | Old data | Check `data/` directory for latest files |
 
@@ -114,4 +114,4 @@ Main agent can trigger this subagent for automated checks
 **Route**: SAN (San Diego) → ATH (Athens)  
 **Dates**: June 12-22, 2026  
 **Passengers**: 2  
-**Recipient**: Paolo G. (5851420265)
+**Recipient**: User G. (${TELEGRAM_CHAT_ID})

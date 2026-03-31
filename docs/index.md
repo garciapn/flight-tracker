@@ -217,7 +217,7 @@ MIT License — see [LICENSE](../LICENSE) for details.
 
 ## Author
 
-**Paolo Garcia**  
+**User Garcia**  
 Travel optimizer & flight deal hunter 🧳✈️
 
 ---

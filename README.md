@@ -18,7 +18,7 @@ node telegram-notify.js         # Format & display message
 1. **Search for flights** (SAN → ATH, June 12-22, 2 passengers)
 2. **Return top 15 options** with verified prices
 3. **Calculate statistics**: min/max/avg/median prices
-4. **Send to Telegram**: Clean formatted message to Paolo (5851420265)
+4. **Send to Telegram**: Clean formatted message to User (${TELEGRAM_CHAT_ID})
 5. **Save data**: JSON export for scripting/automation
 
 ## Features
@@ -27,7 +27,7 @@ node telegram-notify.js         # Format & display message
 ✅ **Top 15 options** - Sorted by price
 ✅ **Per-person pricing** - Clear cost breakdown
 ✅ **Flight details** - Duration, stops, times
-✅ **Telegram integration** - Auto-send to Paolo
+✅ **Telegram integration** - Auto-send to User
 ✅ **JSON export** - Easy scripting & automation
 ✅ **Data persistence** - Historical tracking in `/data`
 
@@ -43,7 +43,7 @@ node telegram-notify.js         # Format & display message
 
 - **`telegram-notify.js`** - Telegram integration
   - Formats latest search results
-  - Sends clean message to Paolo
+  - Sends clean message to User
   - Saves formatted output to `data/latest-telegram-message.txt`
 
 - **`RUN_SEARCH.sh`** - Quick runner
@@ -260,7 +260,7 @@ npm install
 ## Next Steps
 
 1. ✅ **Search scripts ready** → Run `./RUN_SEARCH.sh`
-2. ✅ **Telegram integration ready** → Sends to Paolo
+2. ✅ **Telegram integration ready** → Sends to User
 3. 🔄 **Optional: Amadeus API** → Add credentials for live data
 4. 🔄 **Optional: Scheduling** → Setup cron or OpenClaw automation
 5. 🔄 **Optional: Price alerts** → Add threshold monitoring
@@ -268,5 +268,5 @@ npm install
 ## Support
 
 Created by: Gerald (OpenClaw)
-For: Paolo G. (5851420265)
+For: User G. (${TELEGRAM_CHAT_ID})
 Route: SAN → ATH (June 12-22, 2026)

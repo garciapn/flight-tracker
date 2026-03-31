@@ -75,7 +75,7 @@ python3 aggregate-flights.py
 - Runs all 3 scrapers in parallel
 - Calls aggregator
 - Formats results in Frank's style
-- Sends to Telegram (Paolo 5851420265)
+- Sends to Telegram (User ${TELEGRAM_CHAT_ID})
 - Logs all operations
 - Saves daily report to `data/daily-report-{timestamp}.json`
 
@@ -335,7 +335,7 @@ self.threshold = 0.05  # 5% drop triggers alert (change as needed)
 
 In `daily-flight-check.py`, line ~216:
 ```python
-chat_id="5851420265"  # Paolo's Telegram ID
+chat_id="${TELEGRAM_CHAT_ID}"  # User's Telegram ID
 ```
 
 ---
@@ -484,16 +484,16 @@ pip install -r requirements.txt
 4. ✅ **Monitor first runs** → Check logs for 24-48 hours
 5. 🔄 **Fine-tune thresholds** → Adjust price alert threshold as needed
 6. 🔄 **Add more routes** → Duplicate for other destinations
-7. 🔄 **Integrate with Paolo's agent** → Auto-trigger from OpenClaw
+7. 🔄 **Integrate with User's agent** → Auto-trigger from OpenClaw
 
 ---
 
 ## Support
 
 **Created by:** Gerald (OpenClaw)  
-**For:** Paolo G. (@powerpaonerd)  
+**For:** User G. (@powerpaonerd)  
 **Route:** SAN → ATH (June 12-22, 2026)  
-**Telegram:** 5851420265
+**Telegram:** ${TELEGRAM_CHAT_ID}
 
 ---
 

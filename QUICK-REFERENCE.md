@@ -143,5 +143,5 @@ Dates: June 12-22, 2026
 ---
 
 **Route:** SAN → ATH (June 12-22, 2026)  
-**For:** Paolo G. (5851420265)  
+**For:** User G. (${TELEGRAM_CHAT_ID})  
 **Status:** Ready to Deploy 🚀

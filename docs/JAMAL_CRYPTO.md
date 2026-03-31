@@ -237,7 +237,7 @@ JAMAL_ELECTRICITY_COST_PER_KWH=0.12
 - Cryptocurrency APIs (optional, for live data)
 
 ### Constraints
-- **NO actual mining** until Paolo approves
+- **NO actual mining** until User approves
 - **NO spending** without permission
 - **Research only** in Phase 1
 - Honest about risks

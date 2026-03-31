@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Telegram Notification
- * Sends flight results to Paolo via OpenClaw message tool
+ * Sends flight results to user via OpenClaw message tool
  */
 
 const fs = require('fs');
@@ -56,7 +56,7 @@ function formatFlightResults(results) {
  * Send message via OpenClaw message tool
  * This leverages the main agent's message tool
  */
-async function sendViaTelegram(message, telegramId = '5851420265') {
+async function sendViaTelegram(message, telegramId = '${TELEGRAM_CHAT_ID}') {
   console.log('📤 Sending to Telegram...');
   
   // In production, this would be called via the message tool

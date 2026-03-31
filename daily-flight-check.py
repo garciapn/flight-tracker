@@ -184,7 +184,7 @@ class DailyFlightCheck:
         
         return message
     
-    def send_to_telegram(self, message: str, chat_id: str = "5851420265") -> bool:
+    def send_to_telegram(self, message: str, chat_id: str = "${TELEGRAM_CHAT_ID}") -> bool:
         """Send message to Telegram."""
         
         self.log("📤 Sending to Telegram...")

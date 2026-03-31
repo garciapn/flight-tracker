@@ -25,12 +25,12 @@ Emissions
 Connecting airports
 Duration
 Search results
-15 results returned.
+12 results returned.
 Best
 Cheapest
 from 
 Fetching results
- $2,327
+ $2,550
 Top departing flights
 Ranked based on price and conveniencePrices include required taxes + fees for 2 adults. Optional charges and bag fees may apply. Passenger assistance info.
 Sorted by top flights
@@ -41,34 +41,34 @@ Alaska, American
 18 hr
 SAN–ATH
 1 stop
-3 hr 21 min ORD
+3 hr 24 min ORD
 1,475 kg CO2e
 Avg emissions
-$2,978
+$3,050
 round trip
-5:15 PM
- – 
-6:45 PM+1
-LufthansaUnited
-15 hr 30 min
-SAN–ATH
-1 stop
-1 hr 45 min MUC
-1,385 kg CO2e
--9% emissions
-$3,351
-round trip
-7:00 AM
+6:20 AM
  – 
 10:10 AM+1
-Air CanadaUnited
-17 hr 10 min
+United, Air Canada
+17 hr 50 min
+SAN–ATH
+2 stops
+LAX, YUL
+1,623 kg CO2e
++7% emissions
+$3,156
+round trip
+4:45 PM
+ – 
+7:35 PM+1
+British AirwaysAmerican
+16 hr 50 min
 SAN–ATH
 1 stop
-2 hr 34 min YUL
-1,724 kg CO2e
-+14% emissions
-$3,481
+2 hr 10 min LHR
+1,497 kg CO2e
+Avg emissions
+$3,170
 round trip
 Price insights
 Prices are currently typical
@@ -78,6 +78,18 @@ Jun 12 – 22
 Date grid
 Price graph
 Other departing flights
+10:30 PM
+ – 
+11:00 AM+2
+Delta
+26 hr 30 min
+SAN–ATH
+1 stop
+11 hr 20 min ATL
+1,476 kg CO2e
+Avg emissions
+$2,917
+round trip
 7:40 PM
  – 
 2:00 AM+2
@@ -86,33 +98,9 @@ British AirwaysAmerican
 SAN–ATH
 1 stop
 6 hr LHR
-1,411 kg CO2e
+1,410 kg CO2e
 -7% emissions
-$2,864
-round trip
-10:10 PM
- – 
-7:50 AM+2
-DeltaKLM
-23 hr 40 min
-SAN–ATH
-1 stop
-8 hr 17 min JFK
-1,555 kg CO2e
-Avg emissions
-$2,915
-round trip
-4:45 PM
- – 
-2:00 AM+2
-British AirwaysAmerican
-23 hr 15 min
-SAN–ATH
-1 stop
-8 hr 50 min LHR
-1,507 kg CO2e
-Avg emissions
-$2,940
+$3,040
 round trip
 9:55 PM
  – 
@@ -124,43 +112,7 @@ SAN–ATH
 10 hr 12 min PHL
 1,451 kg CO2e
 Avg emissions
-$2,978
-round trip
-10:45 PM
- – 
-11:00 AM+2
-American
-26 hr 15 min
-SAN–ATH
-1 stop
-11 hr 27 min ORD
-1,466 kg CO2e
-Avg emissions
-$3,084
-round trip
-7:00 AM
- – 
-1:25 PM+1
-Air CanadaUnited
-20 hr 25 min
-SAN–ATH
-1 stop
-5 hr 49 min YUL
-1,731 kg CO2e
-+14% emissions
-$3,145
-round trip
-5:15 PM
- – 
-11:05 PM+1
-LufthansaUnited
-19 hr 50 min
-SAN–ATH
-1 stop
-6 hr 5 min MUC
-1,440 kg CO2e
-Avg emissions
-$3,153
+$3,050
 round trip
 7:00 AM
  – 
@@ -172,43 +124,19 @@ SAN–ATH
 1 hr 21 min JFK
 1,773 kg CO2e
 +17% emissions
-$3,204
-round trip
-6:50 AM
- – 
-12:15 PM+1
-American
-19 hr 25 min
-SAN–ATH
-1 stop
-3 hr 57 min CLT
-1,690 kg CO2e
-+11% emissions
-$3,334
+$3,156
 round trip
 5:15 PM
  – 
-10:00 PM+1
-Lufthansa, AegeanUnited
-18 hr 45 min
+11:05 PM+1
+LufthansaUnited
+19 hr 50 min
 SAN–ATH
 1 stop
-5 hr 5 min MUC
-1,425 kg CO2e
--6% emissions
-$3,454
-round trip
-9:54 AM
- – 
-11:45 AM+1
-AmericanFinnair
-15 hr 51 min
-SAN–ATH
-1 stop
-40 min DFW
-1,498 kg CO2e
+6 hr 5 min MUC
+1,440 kg CO2e
 Avg emissions
-$3,480
+$3,209
 round trip
 6:15 AM
  – 
@@ -220,7 +148,43 @@ SAN–ATH
 1 hr 45 min PHL
 1,451 kg CO2e
 Avg emissions
-$4,298
+$3,552
+round trip
+7:00 AM
+ – 
+10:10 AM+1
+Air CanadaUnited
+17 hr 10 min
+SAN–ATH
+1 stop
+2 hr 34 min YUL
+1,724 kg CO2e
++14% emissions
+$3,716
+round trip
+5:15 PM
+ – 
+6:45 PM+1
+Lufthansa
+15 hr 30 min
+SAN–ATH
+1 stop
+1 hr 45 min MUC
+1,383 kg CO2e
+-9% emissions
+$3,853
+round trip
+8:00 AM
+ – 
+10:00 AM+1
+UnitedBrussels Airlines
+16 hr
+SAN–ATH
+1 stop
+1 hr 12 min IAD
+1,317 kg CO2e
+-13% emissions
+$5,216
 round trip
 View more flights
 Language​English (United States)

@@ -71,7 +71,7 @@ Top flights returned: 15
 - Runs all 3 scrapers in parallel (concurrent.futures)
 - Calls aggregator
 - Formats results in Frank's style with Markdown
-- Sends to Telegram (Paolo 5851420265)
+- Sends to Telegram (User ${TELEGRAM_CHAT_ID})
 - Logs all operations with timestamps
 - Saves daily report: `data/daily-report-{timestamp}.json`
 
@@ -416,7 +416,7 @@ cat logs/frank-flight-check*.log | less
 python3 -c "
 import os, requests
 bot_token = os.getenv('TELEGRAM_BOT_TOKEN')
-chat_id = '5851420265'
+chat_id = '${TELEGRAM_CHAT_ID}'
 message = '🚀 Test message from Frank'
 requests.post(
     f'https://api.telegram.org/bot{bot_token}/sendMessage',
@@ -486,7 +486,7 @@ log stream --predicate 'eventMessage contains[cd] "frank"'  # See errors
 ## Support
 
 **Created:** Gerald (OpenClaw)  
-**For:** Paolo G. (5851420265)  
+**For:** User G. (${TELEGRAM_CHAT_ID})  
 **Status:** Production Ready ✅
 
 ---

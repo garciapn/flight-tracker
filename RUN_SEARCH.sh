@@ -4,7 +4,7 @@
 # Run this script to:
 #   1. Search for flights (SAN → ATH, June 12-22, 2 passengers)
 #   2. Return top 15 options with real verified prices
-#   3. Send results to Telegram (Paolo)
+#   3. Send results to Telegram (User)
 
 cd "$(dirname "$0")" || exit 1
 
@@ -48,5 +48,5 @@ echo "📊 Data files saved to: ./data/"
 echo "   - flights-*.json (JSON export for scripting)"
 echo "   - latest-telegram-message.txt (formatted message)"
 echo ""
-echo "✉️  Message sent to Paolo (5851420265)"
+echo "✉️  Message sent to User (${TELEGRAM_CHAT_ID})"
 echo ""

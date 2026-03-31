@@ -30,7 +30,7 @@ def send_telegram_alert(message):
     """Send flight alert via Frank's Telegram bot"""
     # Frank's bot
     bot_token = "8515985195:AAG-7UB9iZ78bFgWZoNS9nFffxDyVF9z4jk"
-    chat_id = "5851420265"  # Paolo's chat
+    chat_id = "${TELEGRAM_CHAT_ID}"  # user chat
     
     try:
         url = f"https://api.telegram.org/bot{bot_token}/sendMessage"

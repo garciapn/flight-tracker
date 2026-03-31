@@ -125,7 +125,7 @@ python google-flights-scraper.py JFK LHR 20260701 20260708 1
 python compare-sources.py
 ```
 
-## Important Notes for Paolo
+## Important Notes for User
 
 1. **Google Flights Blocking:** Not a code issue - Google actively blocks web scrapers
    - Anti-bot measures: Webdriver detection, behavioral analysis, IP reputation

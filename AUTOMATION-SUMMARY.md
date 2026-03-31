@@ -220,4 +220,4 @@ ls -lh reports/
 
 ---
 
-Built by Gerald ⚡ for Paolo's Greece adventure 🇬🇷
+Built by Gerald ⚡ for User's Greece adventure 🇬🇷

@@ -211,4 +211,4 @@ Dashboard: **LIVE** at http://localhost:3737
 Tracking: **SCHEDULED** (next run: tomorrow 8am)  
 Alerts: **ENABLED** via Telegram  
 
-Built by Gerald ⚡ for Paolo's Greece trip 🇬🇷
+Built by Gerald ⚡ for User's Greece trip 🇬🇷

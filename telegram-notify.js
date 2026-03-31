@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Telegram Notifier
- * Sends flight results to Paolo via OpenClaw message integration
+ * Sends flight results to user via OpenClaw message integration
  */
 
 const fs = require('fs');
@@ -45,7 +45,7 @@ function formatForTelegram(results) {
  * Send notification
  * For subagent context, this returns formatted message
  */
-async function sendNotification(results, targetUser = 'Paolo') {
+async function sendNotification(results, targetUser = 'User') {
   const message = formatForTelegram(results);
   
   console.log('\n📤 TELEGRAM MESSAGE READY:\n');
@@ -84,7 +84,7 @@ async function main() {
   const results = JSON.parse(fs.readFileSync(latestFile, 'utf8'));
   await sendNotification(results);
 
-  console.log(`✅ Message ready to send to Paolo (5851420265)`);
+  console.log(`✅ Message ready to send to user (${TELEGRAM_CHAT_ID})`);
 }
 
 module.exports = { formatForTelegram, sendNotification };

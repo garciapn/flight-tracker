@@ -228,7 +228,7 @@ cat data/unified-results.json | python3 -m json.tool
 - Amadeus API fully operational
 - Google Flights and SerpAPI ready for setup
 - Complete analysis and next steps documented
-- Results sent to Paolo via Telegram
+- Results sent to User via Telegram
 
 🚀 **READY FOR NEXT PHASE:**
 1. Enable Google Flights scraping

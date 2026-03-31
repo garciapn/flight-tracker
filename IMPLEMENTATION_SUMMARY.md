@@ -27,7 +27,7 @@
 
 ### ✅ 4. Telegram Integration
 - **Status**: COMPLETE ✓
-- **Recipient**: Paolo (5851420265)
+- **Recipient**: User (${TELEGRAM_CHAT_ID})
 - **Method**: OpenClaw message tool (integrated)
 - **Format**: Clean, human-readable markdown
 - **Features**:
@@ -44,7 +44,7 @@
 - **Price Range**: $995–$1349 (2 passengers)
 - **Recommendation**: $1,119 (good value option)
 - **Data Saved**: `data/flights-2026-03-18.json`
-- **Message Sent**: Successfully to Paolo's Telegram
+- **Message Sent**: Successfully to User's Telegram
 
 ### ✅ 6. Executable Scripts
 - **Status**: COMPLETE ✓
@@ -119,7 +119,7 @@ node telegram-notify.js
 - Outputs to console
 - Saves to file
 
-**Message Recipient**: Paolo (5851420265)
+**Message Recipient**: User (${TELEGRAM_CHAT_ID})
 
 ### ✅ One-Command Workflow
 ```bash
@@ -209,7 +209,7 @@ Change any field in `config.json` to search different routes/dates:
   - 15 flights found
   - Prices verified
   - JSON saved
-  - Telegram sent to Paolo
+  - Telegram sent to User
 
 ### Console Output
 ```
@@ -226,7 +226,7 @@ Change any field in `config.json` to search different routes/dates:
 
 ### Telegram Delivery
 - **Message ID**: 3267
-- **Chat ID**: 5851420265
+- **Chat ID**: ${TELEGRAM_CHAT_ID}
 - **Status**: ✅ OK
 - **Format**: Clean markdown with emojis
 
@@ -284,7 +284,7 @@ cat data/latest-telegram-message.txt
 ✅ **Complete implementation** of a working flight tracker with:
 - Real verified price data
 - Web scraping capability (Puppeteer)
-- Telegram integration (Paolo notified)
+- Telegram integration (User notified)
 - JSON export for scripting
 - One-command execution
 - Full documentation
@@ -295,5 +295,5 @@ cat data/latest-telegram-message.txt
 
 **Created**: March 17, 2026  
 **Status**: PRODUCTION READY ✅  
-**Recipient**: Paolo G. (5851420265)  
+**Recipient**: User G. (${TELEGRAM_CHAT_ID})  
 **Route**: SAN → ATH (June 12-22, 2026, 2 passengers)

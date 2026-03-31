@@ -196,7 +196,7 @@ class PriceAlertChecker:
         
         return message
     
-    def send_alert_to_telegram(self, message: str, chat_id: str = "5851420265") -> bool:
+    def send_alert_to_telegram(self, message: str, chat_id: str = "${TELEGRAM_CHAT_ID}") -> bool:
         """Send alert to Telegram."""
         
         try:

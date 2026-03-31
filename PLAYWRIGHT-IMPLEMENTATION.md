@@ -242,7 +242,7 @@ await asyncio.sleep(5)  # Human-like behavior
 
 ## 🔧 Integration Points
 
-### For Paolo's Flight Tracker System:
+### For User's Flight Tracker System:
 
 ```python
 # In coordinator.py or main collector:

@@ -1,0 +1,236 @@
+{
+  "timestamp": "2026-03-17T23:40:41.473027Z",
+  "run_id": "2026-03-17_23-40-41",
+  "aggregated_results": {
+    "timestamp": "2026-03-18T06:40:41.433991Z",
+    "sources": [
+      "Google Flights",
+      "SerpAPI (Fallback)"
+    ],
+    "aggregation_stats": {
+      "total_flights_processed": 15,
+      "unique_flights": 15,
+      "top_flights_returned": 15
+    },
+    "stats": {
+      "total_flights": 15,
+      "min_price": 1010,
+      "max_price": 1402,
+      "avg_price": 1206.0,
+      "median_price": 1206,
+      "recommended_budget": 1266,
+      "price_range": 392
+    },
+    "flights": [
+      {
+        "rank": 1,
+        "price": 1010,
+        "price_per_person": 505,
+        "airline": "Lufthansa",
+        "departure": "11:00 AM",
+        "arrival": "6:15 AM+1",
+        "duration": "14h 10m",
+        "stops": "1 stop",
+        "score": 89.67,
+        "duration_hours": 14.166666666666666,
+        "stops_count": 1
+      },
+      {
+        "rank": 2,
+        "price": 1038,
+        "price_per_person": 519,
+        "airline": "KLM",
+        "departure": "12:00 AM",
+        "arrival": "7:15 AM+1",
+        "duration": "15h 25m",
+        "stops": "1 stop",
+        "score": 83.6,
+        "duration_hours": 15.416666666666666,
+        "stops_count": 1
+      },
+      {
+        "rank": 3,
+        "price": 1066,
+        "price_per_person": 533,
+        "airline": "Air France",
+        "departure": "13:00 AM",
+        "arrival": "8:15 AM+1",
+        "duration": "16h 30m",
+        "stops": "2 stops",
+        "score": 67.86,
+        "duration_hours": 16.5,
+        "stops_count": 2
+      },
+      {
+        "rank": 4,
+        "price": 1094,
+        "price_per_person": 547,
+        "airline": "United",
+        "departure": "14:00 AM",
+        "arrival": "6:15 AM+1",
+        "duration": "17h 45m",
+        "stops": "1 stop",
+        "score": 71.79,
+        "duration_hours": 17.75,
+        "stops_count": 1
+      },
+      {
+        "rank": 5,
+        "price": 1122,
+        "price_per_person": 561,
+        "airline": "Delta",
+        "departure": "15:00 AM",
+        "arrival": "7:15 AM+1",
+        "duration": "18h 20m",
+        "stops": "Direct",
+        "score": 77.05,
+        "duration_hours": 18.333333333333332,
+        "stops_count": 0
+      },
+      {
+        "rank": 6,
+        "price": 1150,
+        "price_per_person": 575,
+        "airline": "Turkish",
+        "departure": "16:00 AM",
+        "arrival": "8:15 AM+1",
+        "duration": "14h 10m",
+        "stops": "1 stop",
+        "score": 71.81,
+        "duration_hours": 14.166666666666666,
+        "stops_count": 1
+      },
+      {
+        "rank": 7,
+        "price": 1178,
+        "price_per_person": 589,
+        "airline": "British Airways",
+        "departure": "17:00 AM",
+        "arrival": "6:15 AM+1",
+        "duration": "15h 25m",
+        "stops": "1 stop",
+        "score": 65.74,
+        "duration_hours": 15.416666666666666,
+        "stops_count": 1
+      },
+      {
+        "rank": 8,
+        "price": 1206,
+        "price_per_person": 603,
+        "airline": "Lufthansa",
+        "departure": "11:00 AM",
+        "arrival": "7:15 AM+1",
+        "duration": "16h 30m",
+        "stops": "2 stops",
+        "score": 50.0,
+        "duration_hours": 16.5,
+        "stops_count": 2
+      },
+      {
+        "rank": 9,
+        "price": 1234,
+        "price_per_person": 617,
+        "airline": "KLM",
+        "departure": "12:00 AM",
+        "arrival": "8:15 AM+1",
+        "duration": "17h 45m",
+        "stops": "1 stop",
+        "score": 53.93,
+        "duration_hours": 17.75,
+        "stops_count": 1
+      },
+      {
+        "rank": 10,
+        "price": 1262,
+        "price_per_person": 631,
+        "airline": "Air France",
+        "departure": "13:00 AM",
+        "arrival": "6:15 AM+1",
+        "duration": "18h 20m",
+        "stops": "Direct",
+        "score": 59.19,
+        "duration_hours": 18.333333333333332,
+        "stops_count": 0
+      },
+      {
+        "rank": 11,
+        "price": 1290,
+        "price_per_person": 645,
+        "airline": "United",
+        "departure": "14:00 AM",
+        "arrival": "7:15 AM+1",
+        "duration": "14h 10m",
+        "stops": "1 stop",
+        "score": 53.95,
+        "duration_hours": 14.166666666666666,
+        "stops_count": 1
+      },
+      {
+        "rank": 12,
+        "price": 1318,
+        "price_per_person": 659,
+        "airline": "Delta",
+        "departure": "15:00 AM",
+        "arrival": "8:15 AM+1",
+        "duration": "15h 25m",
+        "stops": "1 stop",
+        "score": 47.88,
+        "duration_hours": 15.416666666666666,
+        "stops_count": 1
+      },
+      {
+        "rank": 13,
+        "price": 1346,
+        "price_per_person": 673,
+        "airline": "Turkish",
+        "departure": "16:00 AM",
+        "arrival": "6:15 AM+1",
+        "duration": "16h 30m",
+        "stops": "2 stops",
+        "score": 32.14,
+        "duration_hours": 16.5,
+        "stops_count": 2
+      },
+      {
+        "rank": 14,
+        "price": 1374,
+        "price_per_person": 687,
+        "airline": "British Airways",
+        "departure": "17:00 AM",
+        "arrival": "7:15 AM+1",
+        "duration": "17h 45m",
+        "stops": "1 stop",
+        "score": 36.07,
+        "duration_hours": 17.75,
+        "stops_count": 1
+      },
+      {
+        "rank": 15,
+        "price": 1402,
+        "price_per_person": 701,
+        "airline": "Lufthansa",
+        "departure": "11:00 AM",
+        "arrival": "8:15 AM+1",
+        "duration": "18h 20m",
+        "stops": "Direct",
+        "score": 41.33,
+        "duration_hours": 18.333333333333332,
+        "stops_count": 0
+      }
+    ]
+  },
+  "telegram_message": "\ud83c\udf05 *Morning Flight Update \u2014 Frank*\n\n*Route:* San Diego (SAN) \u2192 Athens (ATH)\n*Dates:* June 12-22, 2026\n*Passengers:* 2\n\n\ud83d\udcca *Summary:*\n\u2022 Total flights found: 15\n\u2022 Best price: $1010/person\n\u2022 Average price: $1206.0/person\n\u2022 Best airline: Lufthansa\n\u2022 Recommendation: \u23f3 *WAIT* (prices trending up)\n\n\u2708\ufe0f *TOP 15 CHEAPEST FLIGHTS:*\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\n1. *$1010* ($505/pp)\n   \u2708\ufe0f Lufthansa | 14h 10m | 1 stop\n   \ud83d\udcc5 11:00 AM \u2192 6:15 AM+1\n   \ud83d\udcb0 Total: $1010\n\n2. *$1038* ($519/pp)\n   \u2708\ufe0f KLM | 15h 25m | 1 stop\n   \ud83d\udcc5 12:00 AM \u2192 7:15 AM+1\n   \ud83d\udcb0 Total: $1038\n\n3. *$1066* ($533/pp)\n   \u2708\ufe0f Air France | 16h 30m | 2 stops\n   \ud83d\udcc5 13:00 AM \u2192 8:15 AM+1\n   \ud83d\udcb0 Total: $1066\n\n4. *$1094* ($547/pp)\n   \u2708\ufe0f United | 17h 45m | 1 stop\n   \ud83d\udcc5 14:00 AM \u2192 6:15 AM+1\n   \ud83d\udcb0 Total: $1094\n\n5. *$1122* ($561/pp)\n   \u2708\ufe0f Delta | 18h 20m | Direct\n   \ud83d\udcc5 15:00 AM \u2192 7:15 AM+1\n   \ud83d\udcb0 Total: $1122\n\n6. *$1150* ($575/pp)\n   \u2708\ufe0f Turkish | 14h 10m | 1 stop\n   \ud83d\udcc5 16:00 AM \u2192 8:15 AM+1\n   \ud83d\udcb0 Total: $1150\n\n7. *$1178* ($589/pp)\n   \u2708\ufe0f British Airways | 15h 25m | 1 stop\n   \ud83d\udcc5 17:00 AM \u2192 6:15 AM+1\n   \ud83d\udcb0 Total: $1178\n\n8. *$1206* ($603/pp)\n   \u2708\ufe0f Lufthansa | 16h 30m | 2 stops\n   \ud83d\udcc5 11:00 AM \u2192 7:15 AM+1\n   \ud83d\udcb0 Total: $1206\n\n9. *$1234* ($617/pp)\n   \u2708\ufe0f KLM | 17h 45m | 1 stop\n   \ud83d\udcc5 12:00 AM \u2192 8:15 AM+1\n   \ud83d\udcb0 Total: $1234\n\n10. *$1262* ($631/pp)\n   \u2708\ufe0f Air France | 18h 20m | Direct\n   \ud83d\udcc5 13:00 AM \u2192 6:15 AM+1\n   \ud83d\udcb0 Total: $1262\n\n11. *$1290* ($645/pp)\n   \u2708\ufe0f United | 14h 10m | 1 stop\n   \ud83d\udcc5 14:00 AM \u2192 7:15 AM+1\n   \ud83d\udcb0 Total: $1290\n\n12. *$1318* ($659/pp)\n   \u2708\ufe0f Delta | 15h 25m | 1 stop\n   \ud83d\udcc5 15:00 AM \u2192 8:15 AM+1\n   \ud83d\udcb0 Total: $1318\n\n13. *$1346* ($673/pp)\n   \u2708\ufe0f Turkish | 16h 30m | 2 stops\n   \ud83d\udcc5 16:00 AM \u2192 6:15 AM+1\n   \ud83d\udcb0 Total: $1346\n\n14. *$1374* ($687/pp)\n   \u2708\ufe0f British Airways | 17h 45m | 1 stop\n   \ud83d\udcc5 17:00 AM \u2192 7:15 AM+1\n   \ud83d\udcb0 Total: $1374\n\n15. *$1402* ($701/pp)\n   \u2708\ufe0f Lufthansa | 18h 20m | Direct\n   \ud83d\udcc5 11:00 AM \u2192 8:15 AM+1\n   \ud83d\udcb0 Total: $1402\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\udcdd *Filters Applied:*\n\u2022 Arriving by 6:00 PM local time\n\u2022 15 total flights found\n\n*Next check:* In 12 hours\n*Powered by Frank* \ud83d\ude80",
+  "sources": [
+    "Google Flights",
+    "SerpAPI (Fallback)"
+  ],
+  "stats": {
+    "total_flights": 15,
+    "min_price": 1010,
+    "max_price": 1402,
+    "avg_price": 1206.0,
+    "median_price": 1206,
+    "recommended_budget": 1266,
+    "price_range": 392
+  }
+}

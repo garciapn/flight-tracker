@@ -1,6 +1,6 @@
 site_name: Flight Tracker Documentation
 site_description: Real-time flight price tracking for SAN↔ATH
-site_author: Paolo Garcia
+site_author: User Garcia
 site_url: https://garciapn.github.io/flight-tracker
 
 repo_url: https://github.com/garciapn/flight-tracker
@@ -67,6 +67,6 @@ extra:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com
     - icon: fontawesome/solid/envelope
-      link: mailto:paolo@example.com
+      link: mailto:user@example.com
 
-copyright: Copyright &copy; 2026 Paolo Garcia | Flight Tracker
+copyright: Copyright &copy; 2026 User Garcia | Flight Tracker

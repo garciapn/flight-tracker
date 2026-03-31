@@ -198,7 +198,7 @@ flight-tracker/
 All requirements met. Code tested. Documentation complete. Ready for:
 - Immediate use with Amadeus (primary)
 - Future deployment with proxies (Playwright fallback)
-- Integration into Paolo's flight tracking system
+- Integration into User's flight tracking system
 
 ## Questions?
 
@@ -210,6 +210,6 @@ See:
 ---
 
 **Implemented by:** Gerald (AI Agent)  
-**For:** Paolo G. (@powerpaonerd)  
+**For:** User G. (@powerpaonerd)  
 **Date:** March 17, 2026  
 **Location:** `/Users/gerald/.openclaw/workspace/flight-tracker/`

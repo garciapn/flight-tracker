@@ -106,7 +106,7 @@ python compare-sources.py
 
 Output: `data/comparison-report.json`
 
-## Integration with Paolo's System
+## Integration with User's System
 
 ```python
 import asyncio

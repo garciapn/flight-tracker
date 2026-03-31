@@ -170,7 +170,7 @@ Price: $1,120/person
 Threshold: $1,200/person
 SAVE: $80! 
 
-📧 Email sent to paolo@example.com
+📧 Email sent to user@example.com
 📱 SMS sent to +1 (555) 123-4567
 💬 Slack posted
 🎮 Discord posted
@@ -347,7 +347,7 @@ def spawn_email_summary_agent(self):
         - Trend analysis
         - Booking recommendations
         
-        Send to Paolo's email.
+        Send to User's email.
         ''',
         'label': 'Email Summarizer',
         'mode': 'session'
@@ -508,7 +508,7 @@ Coordinator (final):
   → "📊 1 deal found, all systems healthy"
   → "⏰ Next run: 8 PM"
 
-Result: Paolo gets real-time Telegram feed of everything!
+Result: User gets real-time Telegram feed of everything!
 ```
 
 ---

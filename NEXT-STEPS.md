@@ -6,7 +6,7 @@
 - [x] Run tracker: Got 50 real flights
 - [x] Extract top 15: $2,973 - $3,404 range
 - [x] Check structure: All fields present (airline, times, duration, stops)
-- [x] Send to Paolo: Telegram message with top 15
+- [x] Send to User: Telegram message with top 15
 
 **Status:** COMPLETE ✅
 
